@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orkide</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/orkide.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Orkide</h1> <br>
+            <p><h2>Orkide Çiçeğinin Hikayesi</h2> <br>
+                Orkide çiçeğinin efsanesi de en az kendisi kadar hoştur. Eski zamanlarda Orkis adında teni beyaz, uzun sarı saçlı, mavi gözlü güzeller güzeli bir prenses yaşarmış.
+                 Orkis, sabahın ilk ışıklarıyla beraber kimse uyanmadan dağ eteklerine koşarmış. Orkis’in geçtiği her noktaya mis kokular yayılır, her yer mis gibi kokarmış.
+                 Bir gün Orkis, kendini rüzgara bırakıp savrulmuş. 
+                Savrulduğu yerde güzel kokulu bir çiçek bulmuşlar. Bu çiçeğe Orkis ismi verilmiş ve zamanla orkideye dönüşmüştür.
+            </p>
+            <p> <br>
+                <h2>Orkide Çiçeğinin Özellikleri</h2> <br>
+                Beyaz, mavi, fuşya ve sarı renkli orkideler güzelliği ve kokusu ile en sevilen çiçeklerden biridir.
+                 Dünyada ve ülkemizde en çok tercih edilen çiçekler arasındadır.<br>
+
+               - Orkideler genellikle tropikal iklimleri tercih eder. Çok yıllık bir bitkidir.<br>
+               - Uzun bir gövdesi vardır. Yaprakları genellikle küçük ve çiçeklidir.<br>
+               - Orkide, iklim şartlarına dayanıklıdır. Uzun ömürlü bir çiçek türüdür.<br>                     
+               - Orkideler yılda 2 kez çiçek açabilir. Düzgün bakılması halinde yılda 3-4 kez çiçek açarlar.  <br>
+               - Orkideler ışığı ve havadar ortamları severler. Ancak ışığı sevseler de doğrudan güneş ışığına maruz kalmak istemezler. <br>
+               - Orkideyi sularken musluk suyu yerine içme suyu kullanımı daha doğru olur.  
+               
+            </p> <br>
+            <p><h2>Orkide Çiçeğinin Anlamı</h2> <br>
+                Orkide çiçeği asaleti, zarafeti ve masumiyeti simgeler. Orkide çiçeği, sevgi, mutluluk ve aşk anlamına gelir. Orkide, renk türlerine göre farklı anlamlar taşır.<br>
+               - Beyaz orkide masumiyeti, saflığı simgeler. Saf bir aşkı ve zarafeti anlatan beyaz orkide en çok tercih edilen çiçek türüdür.  <br>
+               - Mor orkide ise asaleti simgeler. Bunun yanı sıra güç ve onuru da sembolize eder. <br>
+               - Sarı orkide ise ender bulunan bir türdür. Arkadaşlık ve dostluk anlamı taşır.<br>
+               - Fuşya orkide ise samimiyeti simgeler. <br>
+               - Mavi orkide ise şık duruşu ile aşkların en büyüğü anlamı taşır.<br> Ancak doğada mavi renkte orkide bulunmuyor. Renklendirme yapılarak mavi renkli orkide elde edilir.
+                 Mavi renkli orkide duruşu ve rengi ile romantizm içeren çiçekler arasında yer alır.<br>
+                Mavi orkide aşkını anlatmak isteyenlerin favori çiçekleri arasındadır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

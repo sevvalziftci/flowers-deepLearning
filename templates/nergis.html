@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nergis</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/nergis.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Nergis</h1><br>
+            <p><h2>Nergis Çiçeğinin Anlamı</h2><br>
+                Nergis çiçeği saygı duyma anlamına gelmektedir. Aynı zamanda aşk çiçeği olarak da ifade edilmektedir.
+                 O kadar güzeldir ki, en güzeldir, hatta kendine zarar verebilecek güzelliğe sahiptir. 
+                Saygı duyma anlamı taşıdığından genellikle sevilen ve değer verilen kişilere verilebilecek bir çiçek çeşididir.</p> <br>
+
+            <p><h2>Nergis Çiçeğinin Özellikleri</h2> <br>
+               - Soğanlı bir bitki olup, soğanları bir sene dinlendirildiği takdirde yine kullanılabilir.<br>
+               - Taç ve yaprakları sarı ve beyaz şeklindedir.<br>
+               - Yaprakları soğandan çıkar.<br>
+               - Bitkinin soğanı zehirlidir.<br>
+               - Taç yaprakları 6 adet ve oval şekildedir.<br>
+               - Sapları 2080 cm arasında uzayabilir.<br>
+               - Her dalda birden çok çiçek büyür.<br>
+               - Dinlenme zamanına giren nergis kesme çiçekçilikte yaygın kullanıma sahiptir.</p> <br>
+
+            <p><h2>Nergis Çiçeğinin Hikayesi</h2> <br>
+                Nergis çiçeği ismini dünyada yakışıklılığı ile ön plana çıkan Narkissos'dan almaktadır.
+                 Yakışıklılığı ile o kadar çok dikkat çekiyor ki çevresindeki tüm kızlar hatta periler bile ona ilgi duymaya başlıyor.
+                  Karaburun'da hayatını sürdüren Narkissos'un ilgisini ise ne kızlar ne de periler çekebiliyor. Ancak, bir gün perilerden biri Narkissos'u Zeus'a şikayet ediyor ve cezalanmasını istiyor.
+                   Tanrı Zeus'un bu isteğini kabul ediyor, cezası ise aynen şöyle; "Başkalarını sevmeyen kendini sevsin" diyerek Narkissos cezasından payına düşeni alıyor.
+                    Narkissos bir gün göl kenarına gider ve su içmek için göle eğildiğinde yansıması karşısında kendisine hayranlık duymaya başlar ve aşık olur.<br>
+                     Günlerden bir gün yine göle gider ve kendine bakarken göle düşüverir ve hayatını kaybeder. Bunu gören kızlar ve periler Narkissos'u sudan çıkarmak isterler. <br>
+                     O esnada suyun içerisinden bir çiçek çıkıverir.
+                 Çiçeğin rengi ve kokusu o kadar hoş ve güzeldir ki, çiçeğin adını Narkissos koyarlar, nergis çiçeğinin anlamı da işte buradan gelmektedir.</p> <br>
+
+            <p><h2>Nergis Çiçeği Faydaları</h2> <br>
+               - Nergisin kökü öğütülerek kullanıldığında sinirlere kadar ulaşabilen yaraların iyileşmesini sağlar.<br>
+               - Temizleyici etkisi ile bilinmektedir.<br>
+               - Cüzzam ve abraş rahatsızlıklarına olumlu etkilerde bulunur.<br>
+               - Soğuk algınlığından kaynaklı hastalıklara iyi gelir.<br>
+               - Rutubet ve safradan dolayı ortaya çıkan baş ağrısına fayda sağlar.<br>
+               - Kaynatılıp suyu içildiğinde ya da haşlanarak tüketildiğinde kusmayı tahrik ederek mide dibindeki rutubeti çeker.</p>
+        </div>
+    </div>
+</body>
+</html>

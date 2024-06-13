@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petunya</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/petunya.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Petunya</h1><br>
+            <p><h2>Petunya Özellikleri</h2> <br>
+                Solanaceae ailesinin bir üyesi olan petunya çiçeği, doğru şekilde bakımı yapılır ve uygun ortam sağlanırsa oldukça uzun ömürlü bir bitkidir.
+                Çok yıllık bir bitkidir.
+                Bütün yaz boyunca çiçek açar. Yaz ve sonbahar ayları boyunca çiçeklidir. <br> <br>
+                Petunya çeşitleri 4 tanedir. Bunlar; büyük çiçekli, küçük çiçekli, çok çiçekli ve zemin kaplayıcıdır. <br><br>
+                
+                Saksıda, zeminde, askıda ve bahçelerde yetiştirilebilen petunya, büyüleyici çiçekleriyle etkileyici bir görüntü sunar. 
+                Tüm yaz ve sonbahar aylarını çiçekli olarak geçirir. Bu bitki uygun ortam ve bakım sağlandığı müddetçe uzun ömürlüdür. 
+                Petunya çiçeğinin anlamı umuttur. Rengarenk insanın içini ferahlatan bu çiçek aynı zamanda umudun simgesidir.</p> <br>
+            <p><h2>Petunya Tohumu Nasıl Ekilir?</h2> <br>
+                Petunya yetiştirmede tohumdan ziyade filizin tercih edildiğini belirtmeliyiz.
+                Bunun nedeni tohumların çok ufak olması nedeniyle idare edilmesinin zor olmasıdır.
+                Ayrıca tohumların filizlenmesi yaklaşık 10 hafta sürer. Oysa tohumdan değil filizden yetiştirmeye başlarsanız
+                10 haftalık süreyi beklemenize gerek kalmaz.
+                Şubat ve mart aylarında kasalara ekilen tohumlar mayıs ayından itibaren bahçelere dikilir.</p> <br>
+
+                <p><h2>Petunya Çiçeği Bakımı Nasıl Yapılır?</h2><br>
+                    Petunya çiçeği için toprak, yuvarlak ve geniş ağızlı saksılar idealdir.
+                    Genellikle saksının dibine biraz pomza, perlit veya çakıl yerleştirilir ve ardından üzerine toprak konur.
+                    Topraktan sonra tohumlar yerleştirilir. Tohumları toprağın içine gömmek zorunda değilsiniz, yüzeyde bırakabilirsiniz.
+                    Ekim işleminden yaklaşık 3 hafta sonra tohumlar çimlenir ve fideler ortaya çıkmaya başlar.
+                    Güneş gören petunyaların saksısının yılda bir kez değiştirilmesi gerekir.
+                    Daha az güneş gören petunyaların saksıları ise 2 yılda bir değiştirilmelidir. <br><br>
+                    Konumlandırma: <br>
+
+                    Çok narin bir çiçek olan şakayık, sert hava koşullarına dayanamaz.
+                    Rüzgarı doğrudan almamalıdır. Hava akışı sağlanan, aydınlık ve ferah köşelerde şakayık büyüyebilir. <br> <br>
+                    Ekim: <br>
+
+                    Soğanlı bir bitki olan şakayık, sık ekilmelidir.
+                    Her bir soğan arasında 5 cm aralık olmalıdır. Geniş bir saksı, şakayık için ideal olacaktır.</p> <br><br> <br>
+        </div>
+    </div>
+
+</body>
+</html>

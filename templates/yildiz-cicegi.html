@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yıldız Çiçeği</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/yildiz.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Yıldız Çiçeği</h1><br>
+            <p><h2>Yıldız Çiçeği Özellikleri</h2> <br>
+                Yıldız çiçeği, dalya ve dehlia isimleriyle de bilinir. Renkli çiçekleri sayesinde eve ayrı bir hava katan bu çiçek, hoş görüntüsü ile genellikle süs bitkisi olarak değerlendirilir. Beyaz yıldız çiçeği, sarı yıldız çiçeği, kırmızı yıldız çiçeği, mavi yıldız çiçeği… Adeta gökkuşağının her rengini yıldız çiçeği çeşitleri içerisinde görmek mümkündür. <br><br>
+
+                Yıldız çiçeğini ekmek ve yetiştirmek tahmin edilenden çok daha kolay ve zahmetsizdir. Bu şahane bitki hemen her toprakta kolaylıkla yetişebilir. Ayrıca sık sık sulanmasına gerek yoktur. Bu çiçek için en ideal yerler bol güneş alan bahçelerdir. Çünkü suyu sevmeyen bu bitki güneşe adeta aşıktır. Yıldız çiçeği doğru uygulamalarla iyi bakıldığında yaz sonu ve sonbahar döneminde çiçek açar.</p> <br>
+            <p><h2>Yıldız Çiçeği Bakımı Nasıl Yapılır?</h2> <br>
+                Toprak Seçimi <br>
+Yıldız çiçeği hemen her toprak türünde kolaylıkla yetiştirilebilir. Ancak daha sağlıklı bir gelişim için pH değeri yüksek, alkali, verimli, humuslu ve kolay drenaj sağlanan toprakları tercih etmelisiniz.
+<br><br>
+Sulama <br>
+Yıldız çiçeği bakımı nasıl yapılır sorusu için en önemli kısım tabii ki her bitkide olduğu gibi sulamadır. Yıldız çiçeği susuzluğa dayanıklı bir bitkidir. Çok fazla suya ihtiyaç duymaz. Yıldız çiçeği yetiştirilirken sulama çok fazla yapılmaz; ama suyun kaliteli olması mühimdir. Çiçeğe ne zaman su vereceğinize karar vermek için toprağını kontrol etmeniz yeterlidir. Eğer toprak kuru ise sulama zamanı gelmiş demektir.
+<br><br>
+Konumlandırma <br>
+Yıldız çiçeği, güneşi seven çiçeklerdendir. Hatta öyle ki; bu bitki ne kadar çok güneş görürse o kadar çok çiçek açar. İlkbahar aylarının başından yaz mevsiminin sonuna kadar günde minimum 6 saat güneş ışığına ihtiyaç duyar. Dolayısıyla bu çiçeği evinizin en fazla güneş alan noktasına, balkona ya da terasa konumlandırmanızı öneririz.
+
+Çok rüzgarlı bir balkonunuz yoksa yıldız çiçeğini dış ortamda da yetiştirebilirsiniz.
+
+Yıldız çiçeğini konumlandırırken dikkat etmeniz gereken bir diğer nokta ise çiçeği koyduğunuz yerin havadar olmasıdır. Çünkü bu bitki özellikle çiçek açma döneminde temiz havaya ihtiyaç duyar. Yıldız çiçeği açmıyor acaba neden diye düşünüyorsanız bu sorunun cevabı genellikle çiçeğin yerini sevmemesiyle ilgili olabilmektedir.
+<br><br>
+Isı – Sıcaklık <br>
+Yıldız çiçeği oda sıcaklığında sağlıklı bir gelişim gösterir. Ancak çimlenme döneminde oda sıcaklığının normalden birkaç derece fazla olmalıdır. Çimlenme gerçekleştikten sonra ise oda sıcaklığını normal seviyesine alabilirsiniz.</p> <br><br><br>
+        </div>
+    </div>
+
+</body>
+</html>

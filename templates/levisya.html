@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levisya</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/levisya.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Levisya</h1><br>
+            <p><h2>Levisya Özellikleri</h2> <br>
+                Bilgi kaynaklarının çoğunda söz konusu bitki türünü semizotu ile aynı familyadan (Portulacaceae) diye yazarlar.
+                 Bu bilgi eskidir. Son yıllardaki araştırmalara göre Portulacaceae familyasından 230 türün bağlı olduğu 14 cinsin 
+                 farklılıkları anlaşılmış ve bunlar ve konumuz olan tür Montiaceae adıyla yeni bir familya olarak sınıflanmıştır.<br><br>
+                 Gerçekte her şeyiyle sukulenttir. Fakat bakımının çok farklı olması sebebiyle bu türü kaktüs-sukulent kategorisinin 
+                 dışında tuttum. İstediği şartlar ve gerektirdiği bakım çok farklı.<br>
+                 Soğuklara dayanımı oldukça iyi. -30 derecelere dayanabilen türleri mevcut. Ancak hybrid türlerin çoğunu -10 derecelerin altında bırakmamak daha doğru olur.
+                  Nemli fakat geçirgen toprak ve kayalık yerleri seviyor. Rakım olarak da aslında yüksek rakımlara alışık.</p> <br>
+            <p><h2>Levisya Habitatı</h2> <br>
+                Lewisia cotyledon ABD’nin batısında Kaliforniya’nın kuzeyi ve Oregon’un güneyinde dağlık bölgelere aittir. 
+                En çok kuzeye bakan kayalıklarda, taşlar arasında, kaya çatlaklarında yaşarlar. Yaşam alanlarına sub-alpine habitat derler. 
+                Sub-alpine yüksek dağlarda ormanların var olamadığı daha yüksek kısımların hemen yakınındaki sınır bölgelerine denir. 
+                Yani ormanların var olabilecekleri en yüksek rakım yerlerdir. Daha yüksek yerler ise alpine habitattır ve buralarda ormanlar bulunmaz.</p>
+        </div>
+    </div>
+
+</body>
+</html>

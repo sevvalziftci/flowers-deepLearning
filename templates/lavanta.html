@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanta</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/lavanta.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Lavanta</h1><br>
+            <p><h2>Lavanta Çiçeğinin Özellikleri</h2><br>
+                -  Genelde mor renkli olan bu çiçeklerin nadir de olsa başka renkleri de mevcuttur. Bunların başında açık pembe ve beyaz geliyor.<br>
+                -  Mor ile lila arasında bir renkte olduğu için halk arasında 'lavanta rengi' olarak da tanımlanır.<br>
+                - Boyları genelde 20 - 40 cm aralığında olan bu bitkilerin bazıları 60 cm'e kadar uzayabilir.  <br>
+                - Gümüş renkli yaprakları karanlıkta bile parlar ve bu yönüyle estetik bir bütünlük sağlar. <br>
+                - Çalı şeklinde olan yaprakları son derece güçlü olup ani ısı değişimlerine karşı dahi dirençlidir. </p><br>
+              <p><h2>Lavanta Çiçeğinin Anlamı</h2> <br>
+                  Her çiçekte olduğu gibi lavantalar da renklerine göre belli başlı anlamlar içeriyor. 
+                  Beyaz lavantalar genellikle güzellik ve estetiği, aynı zamanda yenilenmeyi temsil eder. Mor renkli olanları ise gücün ve ihtişamın sembolüdür. 
+                  Çiftler arasında birbirine hediye edildiği takdirde sadakat ve bağlılık gibi manalar taşır.</p><br>
+
+              <p><h2>Lavanta Çiçeğinin Faydaları Nelerdir?</h2><br>
+                 - Lavanta çiçeğinden yayılan koku kişilerin çok daha sakin ve dingin olmasını sağlar.<br>
+                 - Aynı zamanda kronik baş ağrısı çeken kişilerin bu yöndeki şikayetlerini azaltır.<br>
+                 - Bağırsaklarda biriken kötü gazların atılmasında yardımcı olan bu özel bitki, hazımsızlık, şişkinlik gibi midevi sorunların giderilmesinde de etkilidir.<br>
+                 - Insomnia ve uyku apnesi gibi doğrudan doğruya insan sağlığını riske atan uyku bozukluklarının belirtilerini en aza indirger.<br>
+                 -Stres azaltıcı etkiye sahip olan bu bitki kişilerin çok daha mutlu ve pozitif hissetmelerini de sağlıyor.<br>
+                 - Lavanta çayı ise idrar söktürücü özelliktedir ve kış hastalıklarına karşı bağışıklık sistemini güçlendirir.
+              </p><br>
+              <p><h2>Lavanta Çiçeğinin Bakımı Nasıl Yapılır?</h2><br>
+                  Lavantalar bir süs çiçeği olduğu için evlerde, yazlıklarda ve iş yerlerinde en çok yetiştirilen çiçeklerin başında geliyor.
+                   Aynı zamanda bakımının son derece kolay olması da bunda büyük bir etkendir. 
+                  Her ne kadar soğuğa dayanıklı bir bitki olsa da mümkün olduğunda oda sıcaklığında muhafaza edilmelidir.<br><br>
+                  Bu çiçeklerin en önemli özelliği suyu çok sevmesidir. 
+                  Bu nedenle günde en az iki kere sulanması tavsiye ediliyor. 
+                  Her çeşit toprakta yetişen bitkiler özellikle bahar ve yaz aylarında güneş alan yerlere konulmalıdır.
+                   Hem narin bir görünüme hem de dayanıklı bir yapıya sahip olan lavanta, ışık alan yerlerde tutulmalıdır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

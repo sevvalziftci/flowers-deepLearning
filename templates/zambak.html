@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zambak</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/zambak.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Zambak</h1> <br>
+            <p><h2>Zambak Çiçeği Nedir?</h2> <br>
+                Zambak çiçeği, Zambakgiller ailesinden gelen mevsimlik bir çiçektir. Soğan köklü bir bitki türü olup dışarıdan bakıldığında uzun boylu, dik gövdeli ve iri çiçekli bir görünüm sergilemektedir.
+                 Kısa zaman içinde hızlı büyüme gösteren bir bitki olduğundan dolayı zambağın bakımı son derece olumlu sonuç verebilmektedir.<br>
+                 Zambak bitkisi; içerik bakımından oldukça zengindir. Bu bakımdan yağ elde edilen şifalı bitkiler arasında yerini almaktadır.
+                  Bu bakımdan çiçek olarak yetiştiriciliğinin yapılmasının yanı sıra yağ elde edilmek amacıyla da yetiştiriciliği yapılan bir çiçektir.</p> <br>
+
+            <p><h2>Zambak Çiçeği Özellikleri</h2> <br>
+                Zambak çiçeği, halk arasına bataklık süseni veya kel baş olarak da bilinen bir bitki olup kendisine özgü bası özellikleri bulunmaktadır. Bunlar:<br>
+
+                - Çok yıllık bir bitkidir.<br>
+               - Zambak bir saksı bitkisi değil bahçe bitkisidir.<br>
+               - Oldukça dayanıklı ve sağlam bir yapı barındırmaktadır.<br>
+               - İhtiyaç duyduğu şekilde bir bakım yapılması uzun yıllar varlıklarını sürdürebilir.<br>
+               - Kökü yatay olarak gelişmekte olup kök içi mor veya kırmızı renktedir.<br>
+               - Etli bir bitkidir.<br>
+               - Son derece uzun bir gövdeye sahiptir.<br>
+               - Yaprakları kısa ve küt yapıya sahip olan çiçeğim alt yaprakları daha büyük ve geniştir.<br>
+               - Çiçek dönem 4 ila 8 adet çiçeğin tek dal üzerinde bulunur.<br>
+               - 3 gözlü meyvesi olan zambak bitkisinin, onlarca türü bulunur.<br>
+               - Zambak çiçeğinin içeriğinde sarı renkli olan boyayıcı madde, %50 düzeyinde nişasta, %9 düzeyinde saf yağ ve çeşitli asitler bulunur.
+               
+            </p> <br>
+            <p><h2> Zambak Çiçeği Bakımı Nasıldır?</h2> <br>
+                Zambak soğanın toprağa dikiminden 3 hafta önce gübreleme yapılması gerekmekte olup toprakla beraber 30 cm derinlikte karıştırılmaya özen gösterilmelidir.
+                 Temel gübreleme yapıldığı takdirde soğanlar hızlı bir şekilde sap çıkarmaya başlar. Sonrasında ise ayda 1 defa sıvı gübreleme yapılması tavsiye edilmektedir. 
+                 Çiçekler açtıktan sonra ise temel gübrelemeye geri dönülmesi gerekmektedir.<br><br>
+
+                Bitki kış ve sonbahar dönemlerinde sulamaya ihtiyaç duymaz ancak sıcak yaz aylarında düzenli sulama yapılmasına dikkat edilmelidir.</p>
+        </div>
+    </div>
+</body>
+</html>

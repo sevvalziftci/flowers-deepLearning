@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şakayık</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/sakayik.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Şakayık</h1><br>
+            <p><h2>Şakayık Özellikleri</h2> <br>
+                Şakayık çiçeği, her sene bahar aylarında saksı ve bahçelerde göz kamaştıran bir tür çiçektir.
+                Kendine has hoş bir kokusu olan bu çiçeğin görünümü, ilk evrede içe kapanmış gülü andırır.
+                Bir süre sonra dışa doğru açılan renkli yapraklar, yanından geçenlere hoş koku yayar. <br><br>
+                Her bahçeye uyum sağlayan şakayık çiçeğinin evde bakımı da çok kolaydır.
+                İdeal sıcaklık ve sulama karşılandığında, evlere renk katar.
+                Pek çok renkte büyüyen şakayık çiçeğinin en yaygın hali pembe renkli olanıdır.
+                Bu çiçeği yetiştirmek isteyenlerin bir süre sabretmesi gerekir. Çünkü şakayık, ilk defa dikildiği bahçede ya da saksıda çok verim vermez.
+                Bir sonraki seneye kadar bulunduğu yere alışan şakayık çiçeği, bir sene sonra geniş bir yer kaplayacak kadar çiçek verir. <br> <br>
+                Genellikle nisan ayı geldiği andan itibaren çiçeklerini gösteren şakayık çiçeği, bahar günlerinin rengarenk olmasını sağlıyor.
+                Haziran sonuna kadar verimli halde durabilen bu çiçek, çok yoğun sıcaklara dayanamıyor.
+                Sağlık için de önemli bir bitki olan şakayık çiçeği faydaları sayesinde solunumu rahatlatıyor.
+                Soğanlı bir çiçek olan şakayık, kendi soğanından büyümeye başlar.
+                Pembe, sarı ve beyaz gibi renklere sahip olan çiçekleri kat kat dallardan yükselir.</p> <br>
+            <p><h2>Şakayık Çiçeği Anlamı ve Hikayesi</h2> <br>
+                Kaynaklarda yer alan bilgilere göre şakayık çiçeğinin hikayesi Yunan Mitolojisi ile ilgilidir. <br><br>
+
+                Şakayık çiçeği şefkat duygusunu temsil eder. <br> <br>
+                Paeon, ilaç tanrısının öğrencilerinden biridir.
+                Paeon bir gün, öğretmeni tarafından ormana ilaç bulması amacıyla gönderilir.
+                Paeon’un amacı ise; hamile kadınlara çare olmak ve çektiği ağrıları dindirmek için etkili olan bitkiyi bulmaktır.
+                Ancak yolunda gitmeyen şeyler vardır. Paeon’un ilaç tanrısı oldukça kıskançtır.
+                Zeus ise bu kıskançlığın farkındadır. Paeon’un zarar görmemesi için Paeon’u şakayık çiçeğine dönüştürmüştür.
+                Zeus, Paeon’u koruyarak onun canından olmasına engel olmuştur.
+                Şakayık çiçeği olarak hayatına devam eden Paeon, artık tüm hamile kadınların şifasıdır.
+                Böylece ilaç tanrısı Paeon’u öldürememiştir ve Paeon da hayatına şifa veren şefkatli bir çiçek olarak devam etmiştir.</p> <br>
+
+                <p><h2>Şakayık Çiçeği Bakımı ve Yetiştiriciliği</h2> <br>
+                    -Şakayık çiçeği, keskin hava şartlarını sevmez. <br> <br>
+
+                    Sulama: <br>
+                    
+                    Şakayık çiçeği nemi çok sever. Fazla sulamaya gelmeyen çiçeklerdendir.
+                    Eğer çok sulama yaparsanız; saksının alt tabağını alıp fazla suyun kusmasını sağlayabilirsiniz. Bu çiçeği sularken toprağı kontrol edip sulama yapmalısınız. <br> <br>
+                    Toprak Seçimi:
+                    <br>
+                    Humuslu toprak seven şakayık çiçeği, tarla ya da bahçe toprağını kabul etmez.
+                    Mineral açısından zengin, organik gübreleri toprakları saksıya ekleyebilirsiniz.
+                    Geniş arazide yetiştirme yapacaksanız; böceklerde arınmış toprak seçmelisiniz.</p> <br><br><br>
+        </div>
+    </div>
+
+</body>
+</html>

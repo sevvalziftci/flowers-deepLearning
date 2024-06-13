@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İris Çiçeği</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/iris.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>İris</h1><br>
+            <p><h2>İris Çiçeğinin Anlamı</h2><br>
+                İris çiçeği Grek tanrıçası olarak da adlandırılır. Çok farklı renklerde olduğundan Yunan dilinde "gökkuşağı" olarak bilinir.<br>
+                 Latincede ise çiçeğin cennetten geldiğine inanıldığı ve eşsiz kokusundan ötürü “cennetin gözü” olarak isimlendirilmiştir.<br>
+                 İris çiçeğinin renklerinin göz bebeğine yani irise benzemesinden dolayı genel olarak bu isimle tanımlanmıştır.</p><br>
+
+            <p><h2>İris Çiçeğinin Özellikleri</h2><br>
+               - İris Çiçeği, rhizomlu, nadiren de yumrulu bir bitkidir. <br>
+               - Sığ köklü bir bitkidir.<br>
+               - Doğada en çok rastladığımız rengi mavidir. Ancak bunun haricinde sarı, mor, pembe, turuncu ve beyaz renkte açan çiçek rengi çeşitleri vardır. İris, çok yıllık bir bitkidir.<br>
+               - Formunu ve çiçeklerini uzun süre koruyabildiği için kesme çiçek olarak da oldukça popülerdir.<br>
+               - Park ve bahçelerde sıkça kullanılan ve sevilen bitkilerdir. Grup bitkisi olarak yetişmeye oldukça müsaittir.<br>
+               - İris Çiçeğinin 200’den fazla türü vardır. Bazı kaynaklar 300 civarı İris çeşidi olduğunu belirtmektedir. Ülkemizde ise 40’a yakın İris türü doğal olarak yetişmektedir.<br>
+               - İris, Süsengiller familyasındandır. Süsenler de genellikle bir metreye kadar boylanabilmektedir.<br>
+               - İris yaprak döken bir bitki değildir. Bazı yaprakları sararıp dökülse de meraklanmayın, yerlerine yenileri gelir.<br>
+               - Uyku dönemi vardır. Yaz aylarında açtığı çiçeklerini kış aylarında dökerek uyku dönemine girer.<br>
+               - Bahçe yetiştiriciliği için de evde bakmak için de oldukça uygun bir bitkidir.<br>
+               - Eğer çiçeğinizi vitaminlerle beslerseniz çiçeklerinin daha güzel göründüğünü fark edebilirsiniz.<br>
+               - İris çiçeğinin çok hoş bir kokusu vardır. Bundan dolayı iris çiçeğinden parfüm ve yağ da yapılmıştır.</p><br>
+
+            <p><h2>İris Çiçeği ve Hikayesi</h2><br>
+                İris tanrıçası Okeaonos’ un soyundan gelmektedir.
+                 Okeaonos, ilk titandır ve tanrı olarak da tüm akarsuların babası olarak bilinir.
+                  Zeus, İris’ e yerle gök arasında iletişim sağlamak ve bu iki ayrı dünya arasındaki bilgi alışverişi açısından uzaklıkları yakınlaştırmak amacıyla görev vermiştir. <br>
+                  İris bu görevini yaparken gökkuşağını kullanmaktadır. Şöyle ki yeryüzüne haber getireceği zaman gökkuşağını takip ederek yeryüzüne inmektedir.
+                   İris’in taşıdığı tüm haberler güzel ve mutlu edici haberlerdir. Mutlu haberler taşımasından ve gökkuşağı ile yeryüzüne inmesinden dolayı gökkuşağı çiçeği olarak bilinmesinin sebebidir.<br>
+                    Ayrıca bu tanrıçanın kadınların ruhlarını alıp yeraltına götürdüğü gibi bir inanç vardır. 
+                    Fakat bu kadar iyi tasvir edilen bir tanrıçanın üstelik mitolojilerde yeraltı kötü olarak tasvir edilmesinden dolayı bu bilginin doğru olması pek olanaklı gözükmemektedir.</p> <br>
+            
+            <p><h2>İris Çiçeği Bakımı</h2> <br>
+                Her iyi ve hafif yapılı bahçe toprağında çok az ışıkla kolayca yetişir.
+                 Yine de direk güneş ışığından hoşlanır. Drenajı iyi olan geçirgen, hafif kumlu ve kireçli toprakları sever.
+                  Ancak hemen hemen tüm bahçe topraklarında yetişebilmektedir. İrisin sıcaklıkla ilgili pek derdi yoktur.
+                   Geniş bir sıcaklık aralığına dayanabilir. Ancak kış aylarında, bitkinin bulunduğu odanın sıcaklığının 12 derecenin altında olmaması önemlidir.
+                   Baharın erken vakitlerinde, nisan-mayıs aylarında çiçeklenir. Bazı türleri şubat ayında da size merhaba diyebilir. Düzenli olarak çiçekli bitkiler için sıvı gübre verilmesi ihmal edilmemelidir.
+                 Çiçeklenme bittikten sonra da 15 günde bir vermeye devam edebilirsiniz.</p>
+        </div>
+    </div>
+</body>
+</html>

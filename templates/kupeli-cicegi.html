@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levisya</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/kupeli.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Küpeli Çiçeği</h1><br>
+            <p><h2>Küpeli Çiçeğinin Özellikleri</h2> <br>
+                Bilimsel adı fuchsia olan küpe çiçeği, tropik Orta ve Güney Amerika ikliminde doğal olarak yetişir. 
+                Bazı kaynaklara göre Meksika menşeli bir çiçektir. Fakat Orta ve Güney Amerika’da dağlık yerlerde sıklıkla rastlanabilir. 
+                Farklı iklimlere kolay adapte olan bir çiçek olduğu gibi, ev koşullarında yetiştirilmesi kolaydır. <br>
+                Uzun yıllar boyunca yetiştirilebilir ve süs bitkisi olarak iç mekanlarda kullanılabilir. <br><br>
+                Küpe çiçeğinin narin dalları vardır ve çiçekleri bu dallardan aşağı doğru sarkan bir yapıdadır. Bakımı zor olmasa da özen gerektirir ve her yıl çiçek verebilmesi düzenli bakıma bağlıdır. 
+                Doğru sulama güneşlenme, gübreleme ve ilaçlama ile yıllar boyunca çiçek verebilir.</p> <br>
+            <p><h2>Küpeli Çiçeğinin Bakımı Nasıl Yapılır ? </h2> <br>
+                Küpe çiçeği nispeten soğuk havalarda büyüyen bir bitkidir. Bu yüzden bakımını kış aylarında yapmanız faydalı olacaktır. Bu sayede ilkbahar ve yaz aylarında çiçeklenebilir fakat hiçbir koşulda 5 derecenin altında bırakılmaması gerekir. <br>
+
+
+Yarı gölge yerler küpe çiçeği için idealdir. Direkt güneş ışığına maruz kaldıklarında çiçekleri dökülebilir. Bulundukları ortamlar doğal ışık almalı fakat konumu doğrudan güneş ışığına maruz kalan bir yerde olmamalıdır. <br>
+
+
+Yılda bir kere saksı değişimi şarttır. Yaz henüz başlamadan, ilkbahar döneminde saksısı değiştirilebilir.</p> <br>
+        </div>
+    </div>
+
+</body>
+</html>

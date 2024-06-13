@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gül</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/rose.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Gül</h1> <br>
+            <p><h2>Gül Çiçeği Nedir?</h2> <br>
+                Gül, lale ile birlikte hem ülkemizde hem de dünya genelinde en çok yetiştirilen çiçeklerin başında geliyor.<br>
+                 Kendine has kokusu ve görüntüsüyle çok sevilen çiçeklerden biri olan gülün kırka yakın çeşidi vardır.<br>
+                 Türkiye'de en çok gül yetiştirilen bölge Akdeniz Bölgesi, şehir ise Isparta'dır.<br>
+                 Ana vatanı Uzak Doğu ve İran olan güllerin kırmızı, beyaz ve sarı renkli çeşitleri mevcuttur.<br>
+                  Başta kozmetik ve ilaç sanayi olmak üzere birçok farklı sektörde kullanılan güller, Türkiye'nin en çok ihraç ettiği çiçek türleri arasında yer alıyor. </p> <br>
+
+            <p><h2>Gülün Özellikleri Nelerdir? </h2> <br>
+                Türkiye dışında en çok gül yetiştirilen diğer ülkeler Yunanistan, Bulgaristan ve Arnavutluk'tur.
+                 Hem bakımının kolay olmasından hem de yağı kozmetikte kullanıldığı için en çok yetiştirilen türü ise Rose Damascena'dır.<br>
+                 Gül bakımında dikkat edilmesi gereken en önemli nokta, oda sıcaklığıdır.<br>
+                  Soğuk iklimlere karşı dayanıksız olan gül, fazla sıcak ortamları da sevmez.<br>
+                   Bu çiçek, demir bakımından zengin olan topraklarda yetiştirilmeli ve toprağı ayda bir yenilenmelidir.<br>
+                   Direkt güneş ışığına maruz kalmak gülün ömrünü kısaltır. Bu nedenle güller, loş yerlerde tutulmalıdır. <br><br>
+                   Dünya genelinde en az yetiştirilen gül türü ise Kızıl Lale adıyla da bilinen ayı gülüdür. 
+                   Koparmanın ve zarar vermenin yasak olduğu bu güller, özel koşullarda ve iklim şartlarında yetiştirilmektedir.  </p> <br>
+            
+            <p><h2>Güllerin Anlamları</h2> <br>
+                - Güller arasında en popüler olanı kırmızı olandır. Kırmızı gül ‘aşk’ demektir. ‘Seni seviyorum’ demenin en meşru şeklidir.
+                 Sevdiğinize kırmızı gül vererek sürekli onu düşündüğünüzü gösterebilirsiniz.<br>
+                - Sarı gül arkadaşlığı temsil eder. Birine minnet duygunuzu göstermek istiyorsanız sizin için en doğru seçim sarı güller olacaktır.
+                 Üzerinizde emeği olan insanlara teşekkür etmek istediğinizde kullanılır.<br>
+                - Beyaz gül saflığı ve masumiyeti temsil eder. Karşınızdaki insana beyaz gül alarak hem sevginizin saf olduğunu  hem de  ondan hiç bir süphe duymağınızı simgeleyebilirsiniz.
+                 Eğer yeni bir ilişkide hangi çiçek doğru olacaktır diye merak ediyorsanız, sorunuzun cevabı beyaz gül olabilir.  <br>
+                - Oldukça sempatik görünen pembe güllerin anlamı; mutluluk, incelik ve tatlılıktır. Pembe güller uzun yaşar ve oldukça hoş bir kokuya sahiptirler.
+                 Karşınızdakinin hayatınıza dahil olmasından ne kadar mutlu olduğunuzu göstermenin en ideal yoludur pembe gül. <br>
+                - Kırmızı gülün aşkı, sarı gülün  ise arkadaşlığı ve minet duygusunu  temsil ettiğini belirtmiştik. <br>
+                 Turuncu gül ise;  ikisinin arasındaki duyguları ifade eder.  Turuncu güller arzu, heves ve gururu temsil ederken, verildiği kişiye büyülenmeyi ifade eder.
+                 Aynı zamanda çiçek bahçelerine de oldukça yakışacaktır. <br>
+                - Mavi gül belkide en anlamlı çiçeklerden biridir. <br>,
+                 Aslında doğada mavi gül bulunmamaktadır. Mavi olarak adlandırılan güller mavi tonlu mor çiçeklerdir.  Bunun dışındaki mavi güller ise beyaz güllerin renklendirilmesinden oluşturulmaktadır.
+                 Doğal yollarla mavi gül elde edilemediği için, elde edilemez, ulaşılamaz ve gizemli anlamlarına denk gelmektedir. Mavi gül eşsizliktir. 
+                </p>
+        </div>
+    </div>
+</body>
+</html>

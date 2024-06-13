@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokina</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/kokina.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Kokina</h1> <br>
+            <p><h2>Kokina Çiçeği Nedir?</h2> <br>
+                Kokina çiçeğinin anavatanı Güney Avrupa olarak biliniyor. Kokina bitkisi en çok İran ve Akdeniz civarında yetişiyor.
+                 Türkiye'de İstanbul'da bulunan ormanlarda yetişen kokina çiçeğinin isminin kökeni 'kokino' olarak geçiyor.
+                 Halk dilinde tavşanmemesi olarak bilinir.<br>
+                 Kokina Yunanca'da kırmızı demek ve bu çiçeğinin rengi de kırmızı meyvelerle tamamlanıyor.<br>
+                 Bazı efsanelere göre Kokina çiçeğinin şans getirdiğine inanılır.<br>
+                 İki ayrı bitkiden oluşan ve kırmızı ve yeşilin uyumuyla bütünleşen kokina genelde alternatif tıpta da kullanılıyor.<br>
+                  Küçük çalılar şeklinde yetişen kokina çiçeğinin boyu en fazla 1 metredir.<br>
+                  Kış soğukluğuna da oldukça dayanıklı olan bu bitki -20 dereceye kadar dayanıyor.<br>
+                  Kokina çiçeği yeni yılın yaklaşmasıyla birlikte çiçekçi tezgahlarında yerini aldı.
+                 Çünkü bir efsaneye göre kokina çiçeği evinize aldıktan sonra diğer seneye kadar rengi bozulmadan kalırsa yeni bir ev satın alacağınız şeklinde yorumlanmaktadır.</p> <br>
+            
+            <p><h2>Kokina Çiçeği Nasıl Bir Ortamda Yetişir?</h2> <br>
+                Türkiye'de genellikle İstanbul'da ormanlarda yetişen kokina çiçeği, kuşkonmazgiller familyasından olan bir bitkidir. 
+                Evde kokina çiçeği yetiştirmek isterseniz mutlaka çiçeği az güneşli ortamda koymanız gerekir.
+                 Çünkü ormanda yetiştiği için kokina çiçeği güneşi sevmez gölge ve serin olan yerleri daha çok sever.</p> <br>
+
+            <p><h2>Kokina Çiçeği Nasıl Oluşturulur?</h2> <br>
+                Kokina bitkisinin dikenli olduğundan toplanması oldukça zordur. Uzun süre bozulmadan kalması sebebiyle de en çok tercih edilen çiçeklerden biridir.<br>
+                Kokina aslında yeşil yapraklı dalları ve kırmızı meyveleri ayrı ayrı toplanır ve kokinaların kırmızı meyveleri dikenli yeşil yapraklara elle dikilerek birleştirilen bir çiçektir. 
+                Bir hayli zor olan kokina düzenlemeleri çiçekçilerin büyük emek harcaması ile oluşturulmaktadır.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>

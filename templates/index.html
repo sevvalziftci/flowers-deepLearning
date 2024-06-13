@@ -1,0 +1,1199 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+
+        #section-1{
+            background-image: linear-gradient(rgba(235, 226, 226, 0.555) , 
+            rgba(0,0,0,0.8)), url('static/resimler/indir.jpg');
+            background-position: top;
+            padding: 12px;
+            height: 450px;
+            width: 100%;
+            background-size:cover;
+        }
+       
+
+        
+        .upload{
+            display: flex;
+            justify-content: space-around;
+            margin: 200px 0;
+        }
+        input{
+            margin-left:25%;
+            margin-top: 5%;
+            background-color:#E94560 ;
+            color: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            transition:color 1s;
+        }
+        input:Hover{
+            color: black;
+        } 
+        /*  BUTONU KALDIRDIM YAPSAYDIM BÖYLE OLURDU
+        
+            .buton{ 
+            margin-left:44%;
+            margin-top: 5%;
+            color: #fff;
+            transition:color 1s;
+        }
+       */
+
+        /* KARTLARRRRR*/
+
+        .links a{   /*LİNKLERİ CSS KISMI */
+            text-decoration: none;
+            color: black;
+        }
+
+        #section-2{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+
+    #section-3{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+
+    #section-4{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+
+
+    #section-5{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+
+
+    #section-6{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+
+
+    #section-7{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .card{
+            width: 20%;
+            box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+        }
+    .card:Hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 20px;
+    }
+    .container p{
+        margin:15px 0;
+    }
+    img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        height:400px;
+    }
+    p{
+        font-size: 19px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>
+        
+        
+    </header> 
+
+    <main>
+        <section id="section-1">
+            <form method='POST' enctype="multipart/form-data">
+                {{form.hidden_tag()}}
+                {{form.file()}}
+                {{form.submit()}}
+        
+            </form>
+        </section>
+
+    
+        <!- kartlar burada->
+
+        <div class="links">  <!- LİNKLERRRR->
+
+            <section id="section-2">
+                
+                <div class="card">
+                    <a href="/gala-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/gala.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Gala Çiçeği</h2>
+                            <p><h3>Gala Çiçeğinin Özellikleri Neler?</h3>
+                               - Gala çiçeği narin ve kırılgan bir yapıya sahiptir.<br>
+                               - Gala çiçeği gününde ve aynı ölçüde dakik olarak sulanırsa daha verimli bir şekilde büyür.<br>
+                               - Bakım işlemleri düzenli ve eşit miktarda olmadığı zaman gala çiçeği küsebilir. <br>
+                               - Gala çiçeği genelde direk güneş görmeyen ve rüzgar almayan alanları sever. <br>
+                               - Işığı seven gala çiçeği pencere önü gibi alanlar için ideal bir türdür. <br>
+                               - Gala çiçeği saksı değişimi konusunda nisan ve mayıs ayları takip edilebilir.<br> 
+                               - Kökten çoğalan bir tür olduğu için kökleri ayırarak gala çiçeğinizi artırabilirsiniz.<br> 
+                               - Gala çiçeği anlam olarak saflığı ve temizliği simgelemesi ile bilinir. </p>
+                               <p><h3>Gala Çiçeği Nasıl Sulanır</h3>
+                                Gala çiçeğinin sulama işlemi tüm çiçeklerde olduğu gibi klasik bir yöntemden ibaret değil.
+                                 Yani gala çiçeğinin her aklınıza geldiğinde sulamanız yeterli ve dengeli bir seçenek olmayabilir. 
+                                 Gala çiçeğine en iyi şekilde bakmak için haftanın belli günlerinde ve aynı ölçüde su ile sulamaya dikkat etmeniz gerekir. 
+                                 Ölçü ve zamanlama konusunda gala çiçeği oldukça hassas bir türdür.
+                                Gala çiçeğini yaz aylarında haftada 2 kez ve düzenli şekilde sulamanız gerekir.
+                                 Kış dönemi geldiğinde ise sadece haftada bir kez sulamak yeterli.
+                                  Belli bir ölçü kabı ayarlayarak daima aynı miktarda su verdiğinizi kolayca kontrol edebilirsiniz.
+                                   Gününde ve doğru ölçüde sulamadığınız zaman gala çiçeği küserek ilk belirtilerini gösterir.
+                                    Narin ve kırılgan bir tür olan bu çiçeğe evde bakmanız hiçbir ayrıntıyı atlamamanız açısından oldukça önemli.</p>
+                        </div>
+                    </a>
+                </div>
+                    
+            
+                <div class="card">
+                    <a href="/lale">
+                        <img src="{{ url_for('static', filename='resimler/tulips.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Lale</h2>
+                            <p><h3>Lale Çiçeğinin Özellikleri Nelerdir?</h3>
+                               - Gökkuşağında bulunan tüm renkler, lale çiçeklerinde görülür. Oldukça renkli bir bitkidir.<br>
+                               - Lale çiçeği bir semboldür. Türkler için derin anlam taşır. Çünkü Osmanlı Devleti’nin sen çok ekilen ve adı duyulan çiçeğidir.<br>
+                               - Dünya genelini düşündüğünüzde neredeyse 5 bin adet lale türü yetişmektedir.<br>
+                               - Lale çiçeği fidesi bir soğandan oluşur. Ekilen lale soğanı sonraki sene için içinde tohum saklar.<br>
+                               - Her çiçeğin bir anlamı olduğu için lale renkleri de birer duyguyu temsil eder.<br>
+                               - Zambakgillerden bir tür olan lale hem saksıda hem de bahçe toprağında büyümeye uygun bir çiçektir.<br>
+                               - Çiçekleri adeta birer çanı andırmaktadır.<br>
+                               - Asya’nın Batı kesimlerinden doğan lale çiçeği, Türkiye topraklarına 12. yy itibariyle gelmiştir.<br>
+                               - Genellikle süsleme ve peyzaj alanında kullanılmaktadır. Ülkemizde ise bu çiçeğin şekli, pek çok sanat eserine ilham kaynağı olmuştur. Çini, ebru ve halı dokuma alanlarında lale motifi çok sık kullanılır.<br>
+                               - Baharın gelişiyle çiçeklerini gösteren lale, yaz aylarının son demlerine kadar canlı kalır. Ticari amaçla yetişen laleler, çiçeklerini tam olarak açmadan kesilir ve vazoda su içinde bakılır. Bu tip lalelerin ömrü çok kısadır.<br>
+                               - Toprakta ve açık ortamda büyüyen laleler neredeyse tüm yaz boyunca canlı kalabilir.</p>
+        
+                               <p><h3>Evde Lale Çiçeği Nasıl Yetiştirilir?</h3>
+                                Ev ortamında lale çiçeği yetiştirmek için bilmeniz gereken bazı püf noktalar vardır:<br>
+        
+                               - Lale soğanlı bir bitki olduğundan dolayı, soğanların donmadan toprağa dikilmesi gerekir. Bu dönem ise kış öncesidir. Kış soğuklarına kalırsanız; soğanlar toprakta donarak yapısını bozar.<br>
+                               - Daha öncesinde büyüyen ve bir süre sonra solan lale çiçeklerini soğandan ayırmanız gerekir.<br>
+                               - Solmuş çiçekler soğanı da çürütebilir. Bu nedenle soğanlar saksıdan alınmalı ve serin bir yerde havalandırılmalıdır.<br>
+                               - Serin bir günde yeniden toprağa bu soğanları ekebilirsiniz.<br>
+                               - Düz ya da ters lale çiçeği yetiştiriyorsanız; soğanlara uygun bir ortam seçmelisiniz. Bu tür çiçekler kapalı ortamda ve oksijenin az olduğu bölgelerde büyümez.<br>
+                               - Lale çiçeği bakımı sizi çok yormaz ve zahmet istemez. Kontrollü şekilde bakımını yaptığınızda balkonda ve bahçede renk renk lale görebilirsiniz.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="card">
+                    <a href="/orkide">
+                        <img src="{{ url_for('static', filename='resimler/orkide.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Orkide</h2>
+                            <p><h3>Orkide Çiçeğinin Hikayesi</h3>
+                            Orkide çiçeğinin efsanesi de en az kendisi kadar hoştur. Eski zamanlarda Orkis adında teni beyaz, uzun sarı saçlı, mavi gözlü güzeller güzeli bir prenses yaşarmış.
+                             Orkis, sabahın ilk ışıklarıyla beraber kimse uyanmadan dağ eteklerine koşarmış. Orkis’in geçtiği her noktaya mis kokular yayılır, her yer mis gibi kokarmış.
+                             Bir gün Orkis, kendini rüzgara bırakıp savrulmuş. 
+                            Savrulduğu yerde güzel kokulu bir çiçek bulmuşlar. Bu çiçeğe Orkis ismi verilmiş ve zamanla orkideye dönüşmüştür.
+                        </p>
+                        <p>
+                            <h3>Orkide Çiçeğinin Özellikleri</h3>
+                            Beyaz, mavi, fuşya ve sarı renkli orkideler güzelliği ve kokusu ile en sevilen çiçeklerden biridir.
+                             Dünyada ve ülkemizde en çok tercih edilen çiçekler arasındadır.<br>
+    
+                           - Orkideler genellikle tropikal iklimleri tercih eder. Çok yıllık bir bitkidir.<br>
+                           - Uzun bir gövdesi vardır. Yaprakları genellikle küçük ve çiçeklidir.<br>
+                           - Orkide, iklim şartlarına dayanıklıdır. Uzun ömürlü bir çiçek türüdür.<br>                     
+                           - Orkideler yılda 2 kez çiçek açabilir. Düzgün bakılması halinde yılda 3-4 kez çiçek açarlar.  <br>
+                           - Orkideler ışığı ve havadar ortamları severler. Ancak ışığı sevseler de doğrudan güneş ışığına maruz kalmak istemezler. <br>
+                           - Orkideyi sularken musluk suyu yerine içme suyu kullanımı daha doğru olur.  
+                           
+                        </p>
+                        <p><h3>Orkide Çiçeğinin Anlamı</h3>
+                            Orkide çiçeği asaleti, zarafeti ve masumiyeti simgeler. Orkide çiçeği, sevgi, mutluluk ve aşk anlamına gelir. Orkide, renk türlerine göre farklı anlamlar taşır.<br>
+                           - Beyaz orkide masumiyeti, saflığı simgeler. Saf bir aşkı ve zarafeti anlatan beyaz orkide en çok tercih edilen çiçek türüdür.  <br>
+                           - Mor orkide ise asaleti simgeler. Bunun yanı sıra güç ve onuru da sembolize eder. <br>
+                           - Sarı orkide ise ender bulunan bir türdür. Arkadaşlık ve dostluk anlamı taşır.<br>
+                           - Fuşya orkide ise samimiyeti simgeler. <br>
+                           - Mavi orkide ise şık duruşu ile aşkların en büyüğü anlamı taşır.<br> Ancak doğada mavi renkte orkide bulunmuyor. Renklendirme yapılarak mavi renkli orkide elde edilir.
+                             Mavi renkli orkide duruşu ve rengi ile romantizm içeren çiçekler arasında yer alır.<br>
+                            Mavi orkide aşkını anlatmak isteyenlerin favori çiçekleri arasındadır.</p>
+                    </div>
+                    </a>
+                </div>
+                   
+                
+                
+                    <div class="card">
+                        <a href="/papatya">
+                            <img src="{{ url_for('static', filename='resimler/daisy.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Papatya</h2>
+                            <p><h3>Papatya Çiçeğinin Özellikleri</h3>
+                                Papatya çiçeği ülkemize has olan bir çiçektir. Bu nedenle ana vatanı Türkiye’dir.
+                                Papatya ilkbahardan Haziran ayının sonuna kadar çiçek açar. Papatya çiçeğinin boyu yaklaşık olarak 25 cm kadardır ve sapları bulunmaz.
+                                Beyaz renkli yaprakları vardır ve bu yaprakları ince, parçalıdır. Çiçeğin orta kısmında ise sarı bir yuvarlak vardır. 
+                                Bundan dolayı bu çiçeğe halk arasında sarıpapatya diyenler de olur. 
+                                Papatya çiçeği temiz bir kalbi simgeler. İnsanlar temiz kalpliliklerini göstermek için birbirlerine papatya armağan ederler.</p>
+                                <p><h3>Papatya Çiçeğinin Anlamı</h3>
+                                    Tüm çiçeklerin bir anlamı olduğu gibi papatya çiçeğinin de anlamı vardır.
+                                     Anlamı masumiyet ve saflıktır. Papatya çiçeği temiz bir kalbin simgesidir.
+                                     Genellikle insanlar birbirlerinden özür dilemek istediklerinde papatya çiçeği hediye ederler. Sade ve kişiye huzur veriyor.
+                                     Baharın geldiğini müjdeleyen papatya çiçeği hem insan ruhuna hem de vücuda iyi gelir.</p>
+                                <p><h3>Papatya Çiçeğinin Hikâyesi</h3>
+                                    Papatya çiçeğinin hüzünlü bir hikâyesi vardır. Bir zamanlar bir yerde küçük bir tırtıl oluşmuş. İçgüdüleri yardımıyla beslenmesini sağlamış. Biraz büyüdüğünde kendine güvenli bir yer bularak orada koza örmeye başlamış. 
+                                    Belli zaman sonra bu kozadan renkli kanatlı bir kelebek olarak çıkmış. Bu kelebek uçmuş ve uzaklardaki bir vadiye ulaşmış. Etrafına bakınırken vadinin diğer ucundaki papatyayı görmüş.
+                                     Onun ne kadar güzel bir çiçek olduğunu düşünmüş ve yanına giderek merhabalaşmışlar. 
+                                    Sonra birbirlerini tanıyıp konuşmuşlar. Kelebek ile papatya birbirlerini çok sevmişler, birlikte bolca zaman geçirmişler. Birbirlerini hep korumuşlar.<br>
+        
+                                    Kelebek papatyayı çok sevmiş ama ona kendisini sevip sevmediğini bir türlü soramamış. Papatya da kelebeği çok sevmiş ama birbirlerine söyleyememişler.
+                                     Bir gün kelebek artık fazla zamanının kalmadığını anlamış ve papatyaya onun yanından ayrılması gerektiğini söylemiş. ,
+                                     Papatya nedenini merak edince kelebek onun yanında çok mutlu olduğunu ama kelebeklerin yalnızca 3 gün yaşadığını ve ömrünü tamamlamak üzere olduğunu söylemiş.<br>
+                                    
+                                    Papatya elbette ki bu duruma çok üzülmüş ama yapabileceği hiçbir şey yokmuş. Kelebeğin artık gücü çok azalmış ve son bir çabayla “seni seviyorum” diyebilmiş. 
+                                    Papatya da “Ben de” demiş. Papatya kelebek gidince çok üzülmüş, onu sevdiğini daha önce söylemesi gerektiği için pişman olmuş. Papatya bu acıya çok dayanamamış. 
+                                    Önce yaprakları solmuş, sonra da birer birer dökülmeye başlamış. Her düşen yaprakta papatya içinde “seviyormuş” diye geçirmiş.
+                                     Bu olaydan sonra aşıklar karşılarındakine soramadıkları şeyi papatyalara “seviyor mu sevmiyor mu” diye sormaya başlamış ve bu durum böylece yayılmış.</p>     
+                        </div>                      
+                    </div>
+                </a>
+                
+            </section>
+    
+            <section id="section-3">
+
+                
+                    <div class="card">
+                        <a href="/menekse">
+                            <img src="{{ url_for('static', filename='resimler/menekse.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Menekşe</h2>
+                            <p><h3>Menekşe Çiçeği Özellikleri</h3>
+                               - Hiç bir menekşe bitkisine sahip olmadıysanız, çok şey kaçırıyorsunuz. Bu bahar çiçeğinin geçmişi antik Yunanistan'a kadar uzanır. <br>
+                               - Aşk, saflık, sadakat ve güzellik ile ilişkilidir. İlkbaharda çiçek açan ilk bitkilerden biri olan menekşeler, birçok tozlayıcıyı kendine çeker. 
+                                Bu nedenle yaprakları kısa sürede toz olabilir ve böceklenebilir.<br>
+        
+                              - Afrika menekşeleri dolaylı, parlak ışıkta gelişir ve iyi havalandırmaya ihtiyaç duyar. İç mekanda yetiştirirken, bitkiyi kuzeye veya doğuya bakan bir pencereye yerleştirin.<br>
+                              - Doğal ışık sağlamak önemlidir, ancak ekstra ambiyans için yapay aydınlatma eklenebilir. Bitkinizin büyümesine dikkat edin. Solmuş görünüyorsa, saksı değiştirmeye ihtiyacı olabilir. 
+                                Ayrıca, tüylü yapraklar kir ve toz biriktirme eğilimindedir, bu nedenle ara sıra silmelisiniz.</p>
+                            <p><h3>Menekşe Çiçeği Anlamı</h3>
+                                 Eğer bir çiçek aşığıysanız, menekşeler en iyi seçeneklerinizden biridir. Menekşeler, sadakat ve saflığın bir simgesidir.
+                                 Komşuluk ilişkilerindeki güçlü bağıda yansıtır. Bu nedenle komşularımızdan bir menekşe yaprağı almayı çok severiz. 
+                                 Bir yapraktan bir çiçeğe dönüşümü zamanla izlemek oldukça keyiflidir.<br>
+        
+                                 Menekşeler genellikle aşkla ilişkilendirilirken, birçok ilginç sembolik anlam da taşırlar.<br>
+                                 Menekşe, şehvetli kokunun yanı sıra saflık ve alçakgönüllülüğün sembolüdür. Hikayeli bir tarihleri ​​vardır ve şifa, hatırlama ve hatta inançla ilişkilendirilebilirler.
+                                  Menekşeler ayrıca Roma Katolik kilisesi tarafından Meryem için bir sembol olarak kullanılmıştır; bu, melek Cebrail'in Meryem'e çocuğunun doğacağını söylediğinde büyüdüğü düşünülürse uygundur.</p>
+                            <p><h3>Menekşe Çiçeği Renkleri</h3>
+                                Menekşe çiçekleri genellikle mordur.<br> Mor geleceğin, hayal gücünün, hayallerin ve aydınlanmanın rengidir.
+                                 Menekşe renkleri sakinleştirici duygularla ilişkilendirilir ve rahatlatıcı ortamlar için idealdir. <br>
+                                Maneviyat ve aydınlanmanın bir sembolüdür ve ayrıca psişik yetenekleri ve şefkati artırabilir. </p>
+                        </div>
+                        </a>
+                    </div>
+
+                
+               
+                    <div class="card">
+                        <a href="/levisya">
+                            <img src="{{ url_for('static', filename='resimler/levisya.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Levisya</h2>
+                            <p><h3>Levisya Özellikleri</h3>
+                                Bilgi kaynaklarının çoğunda söz konusu bitki türünü semizotu ile aynı familyadan (Portulacaceae) diye yazarlar.
+                                 Bu bilgi eskidir. Son yıllardaki araştırmalara göre Portulacaceae familyasından 230 türün bağlı olduğu 14 cinsin 
+                                 farklılıkları anlaşılmış ve bunlar ve konumuz olan tür Montiaceae adıyla yeni bir familya olarak sınıflanmıştır.<br><br>
+                                 Gerçekte her şeyiyle sukulenttir. Fakat bakımının çok farklı olması sebebiyle bu türü kaktüs-sukulent kategorisinin 
+                                 dışında tuttum. İstediği şartlar ve gerektirdiği bakım çok farklı.<br>
+                                 Soğuklara dayanımı oldukça iyi. -30 derecelere dayanabilen türleri mevcut. Ancak hybrid türlerin çoğunu -10 derecelerin altında bırakmamak daha doğru olur.
+                                  Nemli fakat geçirgen toprak ve kayalık yerleri seviyor. Rakım olarak da aslında yüksek rakımlara alışık.</p>
+                            <p><h3>Levisya Habitatı</h3>
+                                Lewisia cotyledon ABD’nin batısında Kaliforniya’nın kuzeyi ve Oregon’un güneyinde dağlık bölgelere aittir. 
+                                En çok kuzeye bakan kayalıklarda, taşlar arasında, kaya çatlaklarında yaşarlar. Yaşam alanlarına sub-alpine habitat derler. 
+                                Sub-alpine yüksek dağlarda ormanların var olamadığı daha yüksek kısımların hemen yakınındaki sınır bölgelerine denir. 
+                                Yani ormanların var olabilecekleri en yüksek rakım yerlerdir. Daha yüksek yerler ise alpine habitattır ve buralarda ormanlar bulunmaz.</p>
+        
+                        </div>
+                    </div>
+                        </a>
+
+                
+    
+                
+                    <div class="card">
+                        <a href="/karanfil">
+                            <img src="{{ url_for('static', filename='resimler/karanfil.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Karanfil</h2>
+                            <p><h3>Karanfil Çiçeğinin Adı Nereden Gelir?</h3>
+                                Orijinal rengi pembe ve mor olan Karanfil adını Latinceden alır.
+                                 Yunan mitoloji ve tarihinde törenlerde kullanılan çiçek olan karanfil, Caryophyllaceae ailesinden bir çiçektir.
+                                  Beyaz ve sarı renkleri yetiştirmekte en fazla tercih edilen türleridir.<br><br>
+        
+                                Karanfil isminin nereden geldiği ile alakalı önemli iki efsane vardır.
+                                 Rönesans döneminde ismini aldığı düşünülen bitkinin, Diana isimli tanrıçaya atfedildiğine İnanılır. 
+                                 Masumiyet ve saflığın sembolü olarak kabul edilmiştir. Diğer inanışa göre ise Hz. Meryem'in, İsa peygamber için döktüğü gözyaşları filizlenip karanfile dönüşmüştür.
+                                  Burada, karanfil hüzün ve sevgiyi anlatmak için sembolize edilmiştir. Köken olarak da karanfilin, Latince pembe anlamına gelen Carnis kelimesinden türediği düşünülür.</p>
+                            
+                             <p><h3>Karanfil Çiçeğinin Özellikleri</h3>
+                               - 67 yabani türü olan karanfilin, yetişme türüne göre Alp ve Anadolu olarak iki ana türü vardır. <br>
+                               - Hoş kokulu olan türü ise Hüsnüyusuf adıyla bilinir. <br>
+                               -Karanfil bodur, büyük çiçekli, dağınık ve toplu çiçekli olarak dört gruba ayrılır.<br>
+                               - Çiçek piyasasında en çok büyük çiçekli karanfil, tercih edilir. Karanfiller genellikle beyaz, mor, pembe, kırmızı renktedir.<br><br>
+        
+                               - Karanfil, yaprakları karşılıklı büyüyen, kokulu çiçek grubundandır. İnce saçaklı, taç yapraklı görüntüsü ile de çok sevilen karanfil senelerce yeniden açabilir.<br>
+                               - Boyları ortalama 20 ile 40 santim arasında değişir. Saksıda yetişen bodur karanfillerin boy ortalaması da genellikle 10 santimetre civarıdır. Bodur cins karanfiller ile menekşe çiçekleri görünüm olarak oldukça benzerdir. <br>
+                               - Karanfil, soğuğa dayanıklı olmadığı için evde yetiştirilmesi daha uygundur.</p> 
+        
+                              <p><h3>Karanfil Çiçeğinin Anlamı</h3>
+                                Her renginin farklı bir duyguyu sembolize ettiği düşünülen karanfil, sevgi ve saflığın çiçeğidir.
+                                 Fransa'da mor karanfil hüznü anlatırken, Hollanda'da beyaz karanfil direnişi sembolize eder. Pembe karanfil ise şükranlıktır. 
+                                Koyu kırmızı rengi, aşkı ve sevgiyi anlatır. Karanfil çiçeği en bilinen tanımı ile masumiyeti ifade eder.</p>
+                            
+                            <p><h3>Karanfil Çiçeğinin Faydaları</h3>
+                                · Antiseptik özelliktedir, mikrop öldürücüdür.<br>
+                                · Öksürüğü yumuşatır, bronşları rahatlatır.<br>   
+                                · Kuru karanfil ağızda bir müddet tutulursa, kokuyu giderir ve dişetlerini flora eder. <br>                  
+                                · Sindirimi kolaylaştırır, kokusu mide bulantısına iyi gelir.<br>  
+                                · Egzama türü cilt rahatsızlıklarına karanfil çiçeği yağı iyi gelir.<br>                    
+                                · Hafif eklem ve kas ağrılarını hafifletir.<br>   
+                                · Ateş düşürücüdür.<br> 
+                                · Düzenli olarak karanfil yağı sürülürse ciltte tazelik ve canlılık oluşur.</p>
+                        </div>
+                    </div>
+                        </a>
+                        
+                
+                
+                    <div class="card">
+                        <a href="/lavanta">
+                            <img src="{{ url_for('static', filename='resimler/lavanta.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Lavanta</h2>
+                            <p><h3>Lavanta Çiçeğinin Özellikleri</h3>
+                              -  Genelde mor renkli olan bu çiçeklerin nadir de olsa başka renkleri de mevcuttur. Bunların başında açık pembe ve beyaz geliyor.<br>
+                              -  Mor ile lila arasında bir renkte olduğu için halk arasında 'lavanta rengi' olarak da tanımlanır.<br>
+                              - Boyları genelde 20 - 40 cm aralığında olan bu bitkilerin bazıları 60 cm'e kadar uzayabilir.  <br>
+                              - Gümüş renkli yaprakları karanlıkta bile parlar ve bu yönüyle estetik bir bütünlük sağlar. <br>
+                              - Çalı şeklinde olan yaprakları son derece güçlü olup ani ısı değişimlerine karşı dahi dirençlidir. </p>
+                            <p><h3>Lavanta Çiçeğinin Anlamı</h3>
+                                Her çiçekte olduğu gibi lavantalar da renklerine göre belli başlı anlamlar içeriyor. 
+                                Beyaz lavantalar genellikle güzellik ve estetiği, aynı zamanda yenilenmeyi temsil eder. Mor renkli olanları ise gücün ve ihtişamın sembolüdür. 
+                                Çiftler arasında birbirine hediye edildiği takdirde sadakat ve bağlılık gibi manalar taşır.</p>
+        
+                            <p><h3>Lavanta Çiçeğinin Faydaları Nelerdir?</h3>
+                               - Lavanta çiçeğinden yayılan koku kişilerin çok daha sakin ve dingin olmasını sağlar.<br>
+                               - Aynı zamanda kronik baş ağrısı çeken kişilerin bu yöndeki şikayetlerini azaltır.<br>
+                               - Bağırsaklarda biriken kötü gazların atılmasında yardımcı olan bu özel bitki, hazımsızlık, şişkinlik gibi midevi sorunların giderilmesinde de etkilidir.<br>
+                               - Insomnia ve uyku apnesi gibi doğrudan doğruya insan sağlığını riske atan uyku bozukluklarının belirtilerini en aza indirger.<br>
+                               -Stres azaltıcı etkiye sahip olan bu bitki kişilerin çok daha mutlu ve pozitif hissetmelerini de sağlıyor.<br>
+                               - Lavanta çayı ise idrar söktürücü özelliktedir ve kış hastalıklarına karşı bağışıklık sistemini güçlendirir.
+                            </p>
+                            <p><h3>Lavanta Çiçeğinin Bakımı Nasıl Yapılır?</h3>
+                                Lavantalar bir süs çiçeği olduğu için evlerde, yazlıklarda ve iş yerlerinde en çok yetiştirilen çiçeklerin başında geliyor.
+                                 Aynı zamanda bakımının son derece kolay olması da bunda büyük bir etkendir. 
+                                Her ne kadar soğuğa dayanıklı bir bitki olsa da mümkün olduğunda oda sıcaklığında muhafaza edilmelidir.<br><br>
+                                Bu çiçeklerin en önemli özelliği suyu çok sevmesidir. 
+                                Bu nedenle günde en az iki kere sulanması tavsiye ediliyor. 
+                                Her çeşit toprakta yetişen bitkiler özellikle bahar ve yaz aylarında güneş alan yerlere konulmalıdır.
+                                 Hem narin bir görünüme hem de dayanıklı bir yapıya sahip olan lavanta, ışık alan yerlerde tutulmalıdır.</p>
+                        </div>
+                        </a>
+                        
+                    </div>
+                
+            </section>
+    
+            <section id="section-4">
+
+                
+                    <div class="card">
+                        <a href="/ortanca">
+                            <img src="{{ url_for('static', filename='resimler/ortanca.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Ortanca</h2>
+                            <p><h3>Ortanca Çiçeği Anlamı</h3>
+                                Ortanca çiçeğinin anavatanı Japonya'dır. Yapraklarını kış mevsiminde döken ve çalı şeklinde olan ortanca bitkisinin Yunanca ismi, “Hydrangea” şeklindedir. 
+                                Ortanca çiçeğinin anlamı; Yunanca dilinde su ve kap anlamlarına gelen kelimelerden oluşuyor.</p>
+                            
+                            <p><h3>Özellikleri ve Faydaları Nelerdir?</h3>
+                                Ortanca çiçeğinin otuza kadar değişik türü vardır.
+                                 Ülkemiz çapında en yaygın türü büyük yaprağa sahip olan çeşididir.
+                                  Balkonda yetiştirilecek ortanca çiçekleri için güneş ışığı, dolaylı yollardan alınmalıdır.
+                                   Gölge alanları seven ve bu ortamlardan hoşlanan çiçek için en uygun alan, bahçede bulunan ağaç altı ya da duvar kenarıdır. 
+                                   Balkon devamlı güneş alan bir alan ise, çiçeğin daha gölge bölüme yerleştirilmesi gerekir.
+                                    Ortanca çiçeğinin her toprağa uyumlu olduğunu söylemek mümkündür. Ortanca çiçeğinin bilinen bir faydası yoktur.
+                            </p>
+                            <p><h3>Bakımı Nasıl Yapılır? </h3>
+                                Ortanca çiçeğinin ekimi için en uyumlu aylar nisan ve mayıs aylarıdır.<br>
+                                 Ortanca çiçeğinin ekileceği toprak türü her çeşitten olabilir. Ancak dikkat edilmesi gereken tek konu, toprağın fazla alkali toprak olmamasıdır. Bununla beraber doğal toprak kullanılmalıdır.<br>
+                                  Ortanca çiçeklerinin yetişeceği en iyi alanlar bahçe ortamıdır. Çünkü bu çiçekler, geniş sahalarda yetişmekten hoşlanır.
+                                 Ancak çiçek, saksıda yetiştirilecekse, toprağın yer aldığı saksı, geniş çaplı bir saksı olmalıdır.<br><br>
+                                 Ortanca çiçeği, suyu çok seven bir bitkidir. Ekilen çiçeğin, susuz kalmamasına dikkat edilmesi çiçeğin sağlığı açısından önemlidir.<br>
+                                  Bunun yanı sıra toprak çamur tarzında olmamalıdır. Toprağın nemli ve kurumamış olması, yeterli seviyede su aldığını gösterir. <br>
+                                  Sabah saatlerinde çiçeğe sulama yapmak, ortanca çiçeğinin iyi ve sağlıklı bir şekilde yetişmesi adına oldukça önemlidir. <br>
+                                  Çiçek, soğuğa dayanıklı bir bitki değildir. Bu yüzden soğuktan korunmalıdır. </p>
+                        </div>
+                        </a>
+                    </div>
+                
+                <div class="card">
+                    <a href="/kokina">
+                        <img src="{{ url_for('static', filename='resimler/kokina.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>Kokina</h2>
+                        <p><h3>Kokina Çiçeği Nedir?</h3>
+                            Kokina çiçeğinin anavatanı Güney Avrupa olarak biliniyor. Kokina bitkisi en çok İran ve Akdeniz civarında yetişiyor.
+                             Türkiye'de İstanbul'da bulunan ormanlarda yetişen kokina çiçeğinin isminin kökeni 'kokino' olarak geçiyor.
+                             Halk dilinde tavşanmemesi olarak bilinir.<br>
+                             Kokina Yunanca'da kırmızı demek ve bu çiçeğinin rengi de kırmızı meyvelerle tamamlanıyor.<br>
+                             Bazı efsanelere göre Kokina çiçeğinin şans getirdiğine inanılır.<br>
+                             İki ayrı bitkiden oluşan ve kırmızı ve yeşilin uyumuyla bütünleşen kokina genelde alternatif tıpta da kullanılıyor.<br>
+                              Küçük çalılar şeklinde yetişen kokina çiçeğinin boyu en fazla 1 metredir.<br>
+                              Kış soğukluğuna da oldukça dayanıklı olan bu bitki -20 dereceye kadar dayanıyor.<br>
+                              Kokina çiçeği yeni yılın yaklaşmasıyla birlikte çiçekçi tezgahlarında yerini aldı.
+                             Çünkü bir efsaneye göre kokina çiçeği evinize aldıktan sonra diğer seneye kadar rengi bozulmadan kalırsa yeni bir ev satın alacağınız şeklinde yorumlanmaktadır.</p>
+                        
+                        <p><h3>Kokina Çiçeği Nasıl Bir Ortamda Yetişir?</h3>
+                            Türkiye'de genellikle İstanbul'da ormanlarda yetişen kokina çiçeği, kuşkonmazgiller familyasından olan bir bitkidir. 
+                            Evde kokina çiçeği yetiştirmek isterseniz mutlaka çiçeği az güneşli ortamda koymanız gerekir.
+                             Çünkü ormanda yetiştiği için kokina çiçeği güneşi sevmez gölge ve serin olan yerleri daha çok sever.</p>
+    
+                        <p><h3>Kokina Çiçeği Nasıl Oluşturulur?</h3>
+                            Kokina bitkisinin dikenli olduğundan toplanması oldukça zordur. Uzun süre bozulmadan kalması sebebiyle de en çok tercih edilen çiçeklerden biridir.<br>
+                            Kokina aslında yeşil yapraklı dalları ve kırmızı meyveleri ayrı ayrı toplanır ve kokinaların kırmızı meyveleri dikenli yeşil yapraklara elle dikilerek birleştirilen bir çiçektir. 
+                            Bir hayli zor olan kokina düzenlemeleri çiçekçilerin büyük emek harcaması ile oluşturulmaktadır.
+    
+                        </p>
+                    </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="/zambak">
+                        <img src="{{ url_for('static', filename='resimler/zambak.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Zambak</h2>
+                            <p><h3>Zambak Çiçeği Nedir?</h3>
+                                Zambak çiçeği, Zambakgiller ailesinden gelen mevsimlik bir çiçektir. Soğan köklü bir bitki türü olup dışarıdan bakıldığında uzun boylu, dik gövdeli ve iri çiçekli bir görünüm sergilemektedir.
+                                 Kısa zaman içinde hızlı büyüme gösteren bir bitki olduğundan dolayı zambağın bakımı son derece olumlu sonuç verebilmektedir.<br>
+                                 Zambak bitkisi; içerik bakımından oldukça zengindir. Bu bakımdan yağ elde edilen şifalı bitkiler arasında yerini almaktadır.
+                                  Bu bakımdan çiçek olarak yetiştiriciliğinin yapılmasının yanı sıra yağ elde edilmek amacıyla da yetiştiriciliği yapılan bir çiçektir.</p>
+        
+                            <p><h3>Zambak Çiçeği Özellikleri</h3>
+                                Zambak çiçeği, halk arasına bataklık süseni veya kel baş olarak da bilinen bir bitki olup kendisine özgü bası özellikleri bulunmaktadır. Bunlar:<br>
+        
+                                - Çok yıllık bir bitkidir.<br>
+                               - Zambak bir saksı bitkisi değil bahçe bitkisidir.<br>
+                               - Oldukça dayanıklı ve sağlam bir yapı barındırmaktadır.<br>
+                               - İhtiyaç duyduğu şekilde bir bakım yapılması uzun yıllar varlıklarını sürdürebilir.<br>
+                               - Kökü yatay olarak gelişmekte olup kök içi mor veya kırmızı renktedir.<br>
+                               - Etli bir bitkidir.<br>
+                               - Son derece uzun bir gövdeye sahiptir.<br>
+                               - Yaprakları kısa ve küt yapıya sahip olan çiçeğim alt yaprakları daha büyük ve geniştir.<br>
+                               - Çiçek dönem 4 ila 8 adet çiçeğin tek dal üzerinde bulunur.<br>
+                               - 3 gözlü meyvesi olan zambak bitkisinin, onlarca türü bulunur.<br>
+                               - Zambak çiçeğinin içeriğinde sarı renkli olan boyayıcı madde, %50 düzeyinde nişasta, %9 düzeyinde saf yağ ve çeşitli asitler bulunur.
+                               
+                            </p>
+                            <p><h3> Zambak Çiçeği Bakımı Nasıldır?</h3>
+                                Zambak soğanın toprağa dikiminden 3 hafta önce gübreleme yapılması gerekmekte olup toprakla beraber 30 cm derinlikte karıştırılmaya özen gösterilmelidir.
+                                 Temel gübreleme yapıldığı takdirde soğanlar hızlı bir şekilde sap çıkarmaya başlar. Sonrasında ise ayda 1 defa sıvı gübreleme yapılması tavsiye edilmektedir. 
+                                 Çiçekler açtıktan sonra ise temel gübrelemeye geri dönülmesi gerekmektedir.<br><br>
+        
+                                Bitki kış ve sonbahar dönemlerinde sulamaya ihtiyaç duymaz ancak sıcak yaz aylarında düzenli sulama yapılmasına dikkat edilmelidir.</p>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="/gul">
+                        <img src="{{ url_for('static', filename='resimler/rose.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>Gül</h2>
+                        <p><h3>Gül Çiçeği Nedir?</h3>
+                            Gül, lale ile birlikte hem ülkemizde hem de dünya genelinde en çok yetiştirilen çiçeklerin başında geliyor.<br>
+                             Kendine has kokusu ve görüntüsüyle çok sevilen çiçeklerden biri olan gülün kırka yakın çeşidi vardır.<br>
+                             Türkiye'de en çok gül yetiştirilen bölge Akdeniz Bölgesi, şehir ise Isparta'dır.<br>
+                             Ana vatanı Uzak Doğu ve İran olan güllerin kırmızı, beyaz ve sarı renkli çeşitleri mevcuttur.<br>
+                              Başta kozmetik ve ilaç sanayi olmak üzere birçok farklı sektörde kullanılan güller, Türkiye'nin en çok ihraç ettiği çiçek türleri arasında yer alıyor. </p>
+    
+                        <p><h3>Gülün Özellikleri Nelerdir? </h3>
+                            Türkiye dışında en çok gül yetiştirilen diğer ülkeler Yunanistan, Bulgaristan ve Arnavutluk'tur.
+                             Hem bakımının kolay olmasından hem de yağı kozmetikte kullanıldığı için en çok yetiştirilen türü ise Rose Damascena'dır.<br>
+                             Gül bakımında dikkat edilmesi gereken en önemli nokta, oda sıcaklığıdır.<br>
+                              Soğuk iklimlere karşı dayanıksız olan gül, fazla sıcak ortamları da sevmez.<br>
+                               Bu çiçek, demir bakımından zengin olan topraklarda yetiştirilmeli ve toprağı ayda bir yenilenmelidir.<br>
+                               Direkt güneş ışığına maruz kalmak gülün ömrünü kısaltır. Bu nedenle güller, loş yerlerde tutulmalıdır. <br><br>
+                               Dünya genelinde en az yetiştirilen gül türü ise Kızıl Lale adıyla da bilinen ayı gülüdür. 
+                               Koparmanın ve zarar vermenin yasak olduğu bu güller, özel koşullarda ve iklim şartlarında yetiştirilmektedir.  </p>
+                        
+                        <p><h3>Güllerin Anlamları</h3>
+                            - Güller arasında en popüler olanı kırmızı olandır. Kırmızı gül ‘aşk’ demektir. ‘Seni seviyorum’ demenin en meşru şeklidir.
+                             Sevdiğinize kırmızı gül vererek sürekli onu düşündüğünüzü gösterebilirsiniz.<br>
+                            - Sarı gül arkadaşlığı temsil eder. Birine minnet duygunuzu göstermek istiyorsanız sizin için en doğru seçim sarı güller olacaktır.
+                             Üzerinizde emeği olan insanlara teşekkür etmek istediğinizde kullanılır.<br>
+                            - Beyaz gül saflığı ve masumiyeti temsil eder. Karşınızdaki insana beyaz gül alarak hem sevginizin saf olduğunu  hem de  ondan hiç bir süphe duymağınızı simgeleyebilirsiniz.
+                             Eğer yeni bir ilişkide hangi çiçek doğru olacaktır diye merak ediyorsanız, sorunuzun cevabı beyaz gül olabilir.  <br>
+                            - Oldukça sempatik görünen pembe güllerin anlamı; mutluluk, incelik ve tatlılıktır. Pembe güller uzun yaşar ve oldukça hoş bir kokuya sahiptirler.
+                             Karşınızdakinin hayatınıza dahil olmasından ne kadar mutlu olduğunuzu göstermenin en ideal yoludur pembe gül. <br>
+                            - Kırmızı gülün aşkı, sarı gülün  ise arkadaşlığı ve minet duygusunu  temsil ettiğini belirtmiştik. <br>
+                             Turuncu gül ise;  ikisinin arasındaki duyguları ifade eder.  Turuncu güller arzu, heves ve gururu temsil ederken, verildiği kişiye büyülenmeyi ifade eder.
+                             Aynı zamanda çiçek bahçelerine de oldukça yakışacaktır. <br>
+                            - Mavi gül belkide en anlamlı çiçeklerden biridir. <br>,
+                             Aslında doğada mavi gül bulunmamaktadır. Mavi olarak adlandırılan güller mavi tonlu mor çiçeklerdir.  Bunun dışındaki mavi güller ise beyaz güllerin renklendirilmesinden oluşturulmaktadır.
+                             Doğal yollarla mavi gül elde edilemediği için, elde edilemez, ulaşılamaz ve gizemli anlamlarına denk gelmektedir. Mavi gül eşsizliktir. 
+                            </p>
+                    </div>
+                    </a>
+                </div>
+            </section>
+    
+            <section id="section-5">
+                <div class="card">
+                    <a href="/aycicegi">
+                        <img src="{{ url_for('static', filename='resimler/aycicegi.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>Ayçiçeği</h2>
+                        <p><h3>Ayçiçeği Nedir?</h3>
+                            Ayçiçeğinin Latince adı “Helianthus Annuus” tur. 1-2 metre boyunda, yaz aylarında sarı renkli, yassı, koni şeklinde çiçekler açan sert ve dik gövdeli bir bitkidir.<br><br>
+    
+                            Genel olarak ılık iklimleri sever, soğuk iklimlerde gelişmesi yavaşlar. Soğuk, yüksek yerler hariç ülkemizin bütün bölgelerinde yetiştirilmektedir.
+                             Özellikle Ege, Trakya, Marmara bölgelerinde çok fazla yetiştirilir. Ayçiçeği bitkisi tohumuyla yani kavrulmamış çekirdekleriyle çoğaltılır. 
+                             Ekim zamanında toprak sıcaklığının 10-12 derece olması istenir. 
+                            Bol ışık ve yüksek sıcaklık koşullarında ayçiçeği yağ verimi daha yüksek olur.
+                           Tablalarındaki çiçeklerin, tohum bağlayabilmesi için toprak nemli olmalıdır.<br><br>
+                           B1 vitamini, B3 vitamini, B6 vitamini ve E vitamininden zengindir.<br>
+                            Ayçiçeğinin halk arasında yaygın kullanılan adları: Gündöndü, günçiçeği, günebakandır. Çok nadir şemşamer denilen yöreler de bulunmaktadır.</p>
+    
+                        <p><h3>Ayçiçeği Özellikleri</h3>
+                           - Ayçiçeğinin kökleri saçak şeklindedir ancak kök sistemi pek güçlü değildir. Bitkinin büyük olmasına karşın ufak ve kesik kökü bulunmaktadır.<br>
+                           - Ayçiçeğinin sapları çok güçlüdür.<br>
+                           - Dik şekilde yetişir. 1 ile 5 metre arasında boyu uzar. 2 metreye kadar boyunun normal olduğunu söylemek kesin olacaktır.<br>
+                           - Odunsu bir yapısı bulunmaktadır.<br>
+                           - Temel sapın üstünde yaprak koltuğundan dal çıkarmaktadır. Dal sayısının yetişme koşullarına ve türüne göre değiştiğini söylemek önemlidir.<br>
+                           - Her dalın ucunda çiçek tablası bulunur. Ancak temel sapın ucundaki tablanın çiçekleri daha önce açılır, tohumları ise daha sonra olgun hale gelir.<br>
+                           - Ayçiçeğinin yaprakları kalp biçimindedir.<br>
+                           - Yaprak sapları genellikle 20 ile 30 santimetre arasında farklılık gösterir.<br>
+                           - Yaprakların kenarları hafif dişlere sahiptir.<br>
+                           - Yapraklar ince tüyler ile kaplıdır.  <br>
+                        </p>
+                        <p><h3>Ayçiçeği Çeşitleri</h3>
+                            Ayçiçeği ülkemizde ve dünyada yağlık ve çerezlik olarak iki tip olarak yetiştirilir.
+                             Ancak bahçelerde süs bitkisi ve kesme çiçek olarak değerlendirilen tipleri de mevcuttur. </p>
+                        <p><h3>Ayçiçeği Faydaları</h3>
+                            Ayçiçeği, insan sağlığına fayda sağlayan birçok madde içerir. Ay çekirdeği; %90 doymamış yağ oluşturduğu bilinmektedir. 
+                            Ayçiçeği tohum ağırlığının 51.46%, tokoferol antioksidan bileşikler içerdiği, kardiyovasküler hastalık riskini ve bazı kanser türleri arasında, bilhassa etkilidir. 
+                            1 avuç ay çekirdeği 146 kaloridir.<br><br>
+                          - Bol oranda magnezyum içerir.<br>
+                          - Kalp damar sağlığınızı geliştirmeye yardımcıdır.<br>
+                          - Sağlıklı kolesterol düzeyini destekler.<br>
+                          - Depresyona iyi gelir.<br>
+                          - Selenyum içerir.
+                        </p>
+                    </div>
+                </div>
+                    </a>
+                    
+    
+                <div class="card">
+                    <a href="/iris-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/iris.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>İris</h2>
+                        <p><h3>İris Çiçeğinin Anlamı</h3>
+                            İris çiçeği Grek tanrıçası olarak da adlandırılır. Çok farklı renklerde olduğundan Yunan dilinde "gökkuşağı" olarak bilinir.<br>
+                             Latincede ise çiçeğin cennetten geldiğine inanıldığı ve eşsiz kokusundan ötürü “cennetin gözü” olarak isimlendirilmiştir.<br>
+                             İris çiçeğinin renklerinin göz bebeğine yani irise benzemesinden dolayı genel olarak bu isimle tanımlanmıştır.</p>
+    
+                        <p><h3>İris Çiçeğinin Özellikleri</h3>
+                           - İris Çiçeği, rhizomlu, nadiren de yumrulu bir bitkidir. <br>
+                           - Sığ köklü bir bitkidir.<br>
+                           - Doğada en çok rastladığımız rengi mavidir. Ancak bunun haricinde sarı, mor, pembe, turuncu ve beyaz renkte açan çiçek rengi çeşitleri vardır. İris, çok yıllık bir bitkidir.<br>
+                           - Formunu ve çiçeklerini uzun süre koruyabildiği için kesme çiçek olarak da oldukça popülerdir.<br>
+                           - Park ve bahçelerde sıkça kullanılan ve sevilen bitkilerdir. Grup bitkisi olarak yetişmeye oldukça müsaittir.<br>
+                           - İris Çiçeğinin 200’den fazla türü vardır. Bazı kaynaklar 300 civarı İris çeşidi olduğunu belirtmektedir. Ülkemizde ise 40’a yakın İris türü doğal olarak yetişmektedir.<br>
+                           - İris, Süsengiller familyasındandır. Süsenler de genellikle bir metreye kadar boylanabilmektedir.<br>
+                           - İris yaprak döken bir bitki değildir. Bazı yaprakları sararıp dökülse de meraklanmayın, yerlerine yenileri gelir.<br>
+                           - Uyku dönemi vardır. Yaz aylarında açtığı çiçeklerini kış aylarında dökerek uyku dönemine girer.<br>
+                           - Bahçe yetiştiriciliği için de evde bakmak için de oldukça uygun bir bitkidir.<br>
+                           - Eğer çiçeğinizi vitaminlerle beslerseniz çiçeklerinin daha güzel göründüğünü fark edebilirsiniz.<br>
+                           - İris çiçeğinin çok hoş bir kokusu vardır. Bundan dolayı iris çiçeğinden parfüm ve yağ da yapılmıştır.</p>
+    
+                        <p><h3>İris Çiçeği ve Hikayesi</h3>
+                            İris tanrıçası Okeaonos’ un soyundan gelmektedir.
+                             Okeaonos, ilk titandır ve tanrı olarak da tüm akarsuların babası olarak bilinir.
+                              Zeus, İris’ e yerle gök arasında iletişim sağlamak ve bu iki ayrı dünya arasındaki bilgi alışverişi açısından uzaklıkları yakınlaştırmak amacıyla görev vermiştir. <br>
+                              İris bu görevini yaparken gökkuşağını kullanmaktadır. Şöyle ki yeryüzüne haber getireceği zaman gökkuşağını takip ederek yeryüzüne inmektedir.
+                               İris’in taşıdığı tüm haberler güzel ve mutlu edici haberlerdir. Mutlu haberler taşımasından ve gökkuşağı ile yeryüzüne inmesinden dolayı gökkuşağı çiçeği olarak bilinmesinin sebebidir.<br>
+                                Ayrıca bu tanrıçanın kadınların ruhlarını alıp yeraltına götürdüğü gibi bir inanç vardır. 
+                                Fakat bu kadar iyi tasvir edilen bir tanrıçanın üstelik mitolojilerde yeraltı kötü olarak tasvir edilmesinden dolayı bu bilginin doğru olması pek olanaklı gözükmemektedir.</p>
+                        
+                        <p><h3>İris Çiçeği Bakımı</h3>
+                            Her iyi ve hafif yapılı bahçe toprağında çok az ışıkla kolayca yetişir.
+                             Yine de direk güneş ışığından hoşlanır. Drenajı iyi olan geçirgen, hafif kumlu ve kireçli toprakları sever.
+                              Ancak hemen hemen tüm bahçe topraklarında yetişebilmektedir. İrisin sıcaklıkla ilgili pek derdi yoktur.
+                               Geniş bir sıcaklık aralığına dayanabilir. Ancak kış aylarında, bitkinin bulunduğu odanın sıcaklığının 12 derecenin altında olmaması önemlidir.
+                               Baharın erken vakitlerinde, nisan-mayıs aylarında çiçeklenir. Bazı türleri şubat ayında da size merhaba diyebilir. Düzenli olarak çiçekli bitkiler için sıvı gübre verilmesi ihmal edilmemelidir.
+                             Çiçeklenme bittikten sonra da 15 günde bir vermeye devam edebilirsiniz.</p>
+                    </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="/nergis">
+                        <img src="{{ url_for('static', filename='resimler/nergis.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>Nergis</h2>
+                        <p><h3>Nergis Çiçeğinin Anlamı</h3>
+                            Nergis çiçeği saygı duyma anlamına gelmektedir. Aynı zamanda aşk çiçeği olarak da ifade edilmektedir.
+                             O kadar güzeldir ki, en güzeldir, hatta kendine zarar verebilecek güzelliğe sahiptir. 
+                            Saygı duyma anlamı taşıdığından genellikle sevilen ve değer verilen kişilere verilebilecek bir çiçek çeşididir.</p>
+    
+                        <p><h3>Nergis Çiçeğinin Özellikleri</h3>
+                           - Soğanlı bir bitki olup, soğanları bir sene dinlendirildiği takdirde yine kullanılabilir.<br>
+                           - Taç ve yaprakları sarı ve beyaz şeklindedir.<br>
+                           - Yaprakları soğandan çıkar.<br>
+                           - Bitkinin soğanı zehirlidir.<br>
+                           - Taç yaprakları 6 adet ve oval şekildedir.<br>
+                           - Sapları 2080 cm arasında uzayabilir.<br>
+                           - Her dalda birden çok çiçek büyür.<br>
+                           - Dinlenme zamanına giren nergis kesme çiçekçilikte yaygın kullanıma sahiptir.</p>
+    
+                        <p><h3>Nergis Çiçeğinin Hikayesi</h3>
+                            Nergis çiçeği ismini dünyada yakışıklılığı ile ön plana çıkan Narkissos'dan almaktadır.
+                             Yakışıklılığı ile o kadar çok dikkat çekiyor ki çevresindeki tüm kızlar hatta periler bile ona ilgi duymaya başlıyor.
+                              Karaburun'da hayatını sürdüren Narkissos'un ilgisini ise ne kızlar ne de periler çekebiliyor. Ancak, bir gün perilerden biri Narkissos'u Zeus'a şikayet ediyor ve cezalanmasını istiyor.
+                               Tanrı Zeus'un bu isteğini kabul ediyor, cezası ise aynen şöyle; "Başkalarını sevmeyen kendini sevsin" diyerek Narkissos cezasından payına düşeni alıyor.
+                                Narkissos bir gün göl kenarına gider ve su içmek için göle eğildiğinde yansıması karşısında kendisine hayranlık duymaya başlar ve aşık olur.<br>
+                                 Günlerden bir gün yine göle gider ve kendine bakarken göle düşüverir ve hayatını kaybeder. Bunu gören kızlar ve periler Narkissos'u sudan çıkarmak isterler. <br>
+                                 O esnada suyun içerisinden bir çiçek çıkıverir.
+                             Çiçeğin rengi ve kokusu o kadar hoş ve güzeldir ki, çiçeğin adını Narkissos koyarlar, nergis çiçeğinin anlamı da işte buradan gelmektedir.</p>
+    
+                        <p><h3>Nergis Çiçeği Faydaları</h3>
+                           - Nergisin kökü öğütülerek kullanıldığında sinirlere kadar ulaşabilen yaraların iyileşmesini sağlar.<br>
+                           - Temizleyici etkisi ile bilinmektedir.<br>
+                           - Cüzzam ve abraş rahatsızlıklarına olumlu etkilerde bulunur.<br>
+                           - Soğuk algınlığından kaynaklı hastalıklara iyi gelir.<br>
+                           - Rutubet ve safradan dolayı ortaya çıkan baş ağrısına fayda sağlar.<br>
+                           - Kaynatılıp suyu içildiğinde ya da haşlanarak tüketildiğinde kusmayı tahrik ederek mide dibindeki rutubeti çeker.</p>
+                    </div>
+                    </a>
+                    
+                </div>
+    
+                <div class="card">
+                    <a href="/nilufer">
+                        <img src="{{ url_for('static', filename='resimler/nilufer.jpg') }}" alt="">
+                    <div class="container">
+                        <h2>Nilüfer</h2>
+                        <p><h3>Nilüfer Çiçeği Anlamı</h3>
+                            Oryantal kültürler için bu bitki çok önemlidir. Budizm'de saflık ve yenilenmenin sembolü olan bir yaşam çiçeğidir. Lütuf ve güzelliği temsil eden bu bitki, göletlerde ve akarsularda yetişir.<br>
+                            Dini törenler sırasında sıklıkla kullanıldığı için bu durum ona mistik bir özellik verir. Nilüfer suyun üzerinde narin bir şekilde süzülür, bu da tüm su çiçekleri arasında benzersizdir.<br>   
+                            Her kültür, rengine bağlı olarak bu büyüleyici çiçeğe kendi anlamını verir. <br>
+                            Mavi Nilüfer, eski Mısırlılar tarafından öteki dünyanın, reenkarnasyonunun ve gizemlerinin güçlü bir hatırlatıcısı olarak kabul edilmiştir.
+                             Bundan dolayı ritüellerinde ve meditasyonlarında önemli bir rol oynamıştır.</p>
+    
+                        <p><h3>Nilüfer Çiçeğinin Özellikleri</h3>
+                           - Nelumbonaceae familyasına ait olan nilüfer, sıcak bölgelerde, Asya ülkelerinde, aynı zamanda Mısır'da yetiştirilen bir su bitkisidir. Nilüfer, çapı 30 cm'ye kadar varan çiçeğe sahip bir köksap bitkisidir.<br>
+                           - Bu çiçek Çin'de kutsaldır ve bitki genellikle Budist kültürüyle ilişkilendirilir.<br>
+                           - Asya'daki toplumlara göre, gevşeme, hafiflik ve huzur ile eşanlamlı olan Buda'nın amblemidir.<br>
+                           - Nilüfer çiçeğinin en büyük türleri ortalama 1.50 metreye kadar uzar. Suyun üzerinde sabit durabilen bir özelliği vardır.<br>
+                           - Bu bitki, yaz aylarında beyaz ve pembe arasında değişen renklerde görünür.<br>
+                           - Çapı 20-25 cm'ye kadar büyüyebilir ve yaklaşık 3 günlük bir ömre sahiptir. Çiçek sabahları açılır, havayı hoş kokusuyla sarar ve akşam düştüğünde kapanır. Nilüfer solduğunda, yaprakları bir kap gibi görünmeye başlar. Bu haliyle buketlerde kullanılmaya çok uygundur.<br>
+                           - Nilüferin çiçeklenmesi Temmuz başında başlar ve Eylül ayında sona erer. Bahçede küçük bir gölete sahip olanlar, estetik görünümlü bu çiçeği yetiştirebilir. Balkonda, terasta ve hatta küçük bir serada rahatlıkla nilüfer yetiştirilebileceği bilinmelidir.</p>
+                   
+                         <p><h3>Nilüfer çiçeği faydaları nelerdir?</h3>
+                           - Ateş düşürücü etkisi,<br>
+                           - Kalp hastalıklarına iyi gelmesi, (kalp sağlığını destekler ve özellikle aritmi hastaları için önemli faydalar sağlar)<br>
+                           - B vitamini olarak oldukça zengin olması, <br>
+                           - Düzenli olarak tüketilen nilüfer yaprağı çayı anemi hastalığının açtığı sorunları minimum seviyesine indirmesi,<br>
+                           - Uykusuzluğa çare olması yer alır.</p>  
+    
+                        <p><h3>Nilüfer çiçeği bakımı nasıl olmalı?</h3>
+                            Nilüfer bitkisinin evlerde yetiştirilemeyeceğini belirtme sebebimiz bakımının çok zor olmasından kaynaklanıyor.<br>
+                             Saksının derinliği ve toprağın türü bakımları için oldukça önemlidir. Ayrıca su bitkisi olduğu için kök kısımlarının daima su içerisinde olması ya da nemli kalması gerekir.
+                              Hava ısısının ve saksının yer değişimi gibi farklılıklar çiçeğe büyük zarar verebilir.<br><br>
+    
+                            Özel gübreler ile beslenmeli ve zararlı canlılardan korunmalıdır. Su içerisinde iken kendini temizleyebilen nilüfer bitkisi saksıda bakıldığında bu özelliğini yitirebilir.</p>
+                     </div>
+                    </a>    
+                </div>
+            </section>
+
+
+            <section id="section-6">
+                
+                <div class="card">
+                    <a href="/anemon-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/anemon.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Anemon Çiçeği</h2>
+                            <p><h3>Anemon Çiçeği Nedir?</h3> 
+                                Anemon çiçeği hoş çiçekleri ve renkli yapısıyla alanları renklendirmenin en güzel ve doğal yollarından olan bitkiler grubundadır.
+                                İlaç sanayisinde, yağ sanayisinde, solunum yolu hastalıklarında alternatif bitkisel çözüm olarak, cilt rahatsızlıkları için banyo suyuna eklenerek kullanılabilmektedir.
+                                Ancak bitkinin aşırı miktarının zehirli olabileceğine dair çalışmalar olduğu için dikkatli kullanılması önerilmektedir.
+                                Bitkiler aleminde Anemone cinsi, Ranunculaceae (buttercup) familyasının bir üyesidir. 60-120 arası türü olduğuna dair bilgiler vardır.</p> <br>
+                
+                            <p><h2>Anemon Çiçeği Anlamı ve Hikayesi</h2> <br>
+                                Fransızca dağ lalesi demek olan anemon çiçeği anlamı Yunanca ise şeklinin etkisiyle rüzgarın kızıdır.
+                                Ülkemizde ise dağ lalesi, taçlı kır lalesi, gül lalesi ve rüzgar çiçeği olarak da bilinir. <br><br>
+                                Doğal ortamlarda, ormanlarda, dağlarda kendiliğinden yetişebilen anemon çiçeği hikayesi de ilginçtir. <br>
+                                Yunan mitolojisine göre kralın kızı tanrılara tamamen inanamadığı için Afrodit tanrıçası onu cezalandırır ve kız babası farkında olmadan onunla birlikte olur. 
+                                Babası bunu fark ettiğinde onu öldürmek zorunda kalır, tanrılar kızın durumuna üzülerek onu öldürmek yerine anemon çiçeğine çevirirler.
+                                Türkiye’de dağ lalesi olarak da bilinen anemon çiçeği özellikle Yunan kültüründe ve başka farklı yerlerde de gençliği ve tazeliği simgelemektedir.
+                            </p> <br>
+                            <p><h2>Anemon Çiçeği Nasıl Yetiştirilir?</h2> <br>
+                                Türkiye’de Ege ve Akdeniz bölgesinde anemon çiçeği daha çok yetiştirilmektedir. Dünyada ise ılıman havayı seven bu çiçek kuzey bölgelerde görülmektedir. 
+                                Anemon çiçeğinin ülkemizde daha çok blande çeşidi bulunmaktadır.
+                                Anemonlar soğan veya yumrularından üretilirler. Bunlardan yeni fideler oluşur. Eylül ayında pençeler arası gerekli boşluk bırakılarak dikim yapılır. 
+                                Havalar kuru ise ortalama 1-2 kez sulanması yeterli olur. Ilıman yerlerde yetiştirme yapılır.
+                                Anemon çiçeği yetiştirme için tohumdan büyütme de kolay bir yöntemdir. Bunun için de mart ayı tercih edilir. </p> <br>
+                            
+                            <p><h2>Anemon Çiçeği Bakımı ve Püf Noktaları</h2> <br>
+                                Anemon çiçeği kendiliğinden doğada yetiştiğinde özel bir bakıma ihtiyaç pek duymaz; ancak sera üretimi yapıldığında bazı noktalara dikkat edilmesi gerekebilir.
+                
+                                Çok yıllık olan anemon bitkisi zahmetsiz bakımı ile sık tercih edilen süs bitkileri arasındadır. <br><br>
+                                 Anemon çiçeği bakımı için dikkat etmeniz gereken püf noktalar: <br><br>
+                
+                                -Nemli bölgelerde ve topraklarda anemon çiçeğini ekin. <br>
+                                -Anemon çiçeğini büyütme ve bakımı da olabildiğince sıcak alanlarda olmalıdır. <br>
+                                -Soğuk bölgeleri sevmezler. Soğuk zamanlarda saman ile kapatılması önerilir. <br>
+                                -Sulanmayı seven anemonlar bahçelerde daha güçlü şekilde yetişir. Aşırı sulamayı da sevmezler. Kök kısmı toprağı kuruluğuna göre sıklığı ayarlayabilirsiniz. <br>
+                                -Anemon çiçeği dip bölümünde yabani otlar oluşuyorsa bunlar mutlaka temizlenmelidir. <br> <br><br> <br> <br>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                    
+            
+                <div class="card">
+                    <a href="/antoryum-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/antoryum.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Antoryum Çiçeği</h2> 
+                            <p><h3>Antoryum Çiçeği Nedir?</h3> 
+            
+                -Antoryum çiçeği aracea ailesinden gelen bir bitkidir. <br>
+                -Antoryum çiçeği genel olarak kuyruk çiçeği, flamingo çiçeği isimleriyle de tanınır. Antoryum çiçeği kırmızı bir bitkidir. Çiçekleri kalp şeklinde olan bu bitkinin ortası ise yeşil veya sarıdır. <br>
+                -Antoryum çiçeği doğru koşullarda bakıldığı takdirde tüm sene çiçek açabilme özelliğine sahiptir. <br>
+                -Özel bir yapıya sahip olan antoryum çiçeği süs bitkisi olarak tercih edilir. <br>
+                -Antoryum çiçeğine flamingo çiçeği de denir. Bunun sebebi, çiçek açan kısımlarının flamingoyu andırmasıdır. <br>
+                -Antoryum çiçeği büyük ve yoğun renkli yaprakları ile dikkat çeker. Antoryum çiçeği kırmızı, nar çiçeği, pembe ve beyaz renkte bulunur. <br>
+
+                 -Antoryum bitkisinin bakımı kolaydır. Tropikal bir bitki olsa da kolay uyum sağlar. Evlerde rahatlıkla bakılabilir. <br>
+
+                -Antoryum çiçeği zarif ve estetik bir görüntüye sahiptir. Estetik görüntüsü nedeniyle dekorasyonda sıklıkla tercih edilir. <br>
+
+                -Kökeni Orta ve Güney Amerika’dır. <br>
+
+                -Antoryum çiçeği tüm yıl çiçek açabilme özelliği nedeniyle dekorasyonların favori çiçekleri arasındadır. <br>
+
+                -Antoryum çiçeği çok düşük sıcaklıkları sevmez. Bu çiçeğin yetişmesi için ideal ısı oranı 20-28 derece arasıdır. <br>
+
+                -Antoryum çiçeğinin toprağının verimli olması gerekir. Antoryum çiçeği toprağının vitamin ve mineral yönden zengin olmasına dikkat edilmelidir. <br>
+
+            </p> <br>
+
+                <h3>Antoryum (Anthurium) Çiçeğinin Hikayesi</h3> <br>
+                <p>
+                
+
+                Antoryum çiçeği kalp şeklinde açan bir bitkidir. Antoryum çiçeği genel olarak misafirperverliği, mutluluğu ve bereketi simgeler. Antoryum çiçeği bulunduğu ortama kolaylıkla uyum sağlar. Kalp şeklinde olması ise zenginlik ve aşkla bağdaştırılır.
+
+                Antoryum renklerine göre farklı anlamlarda yorumlanabilir. Beyaz antoryumlar genellikle sadeliğin simgesi olarak kabul edilir. Pembe antoryumlar sevgiyi ifade ederken, kırmızı antoryumlar ise yoğun ve tutkulu bir aşkı temsil eder. Yeşil antoryumlar ise aşkın masum halini simgeler.
+                </p> <br>
+
+                <h3>Antoryum Çiçeğinin Bakımı Nasıl Yapılır?</h3> <br>
+                <p>Antoryum veya bilinen adıyla flamingo çiçeğinin bakımı kolaydır. Antoryum çiçeği sene boyunca çiçek açan uzun ömürlü bir bitkidir. 
+                    Yaprakları parlak bir görünüme sahip olan antoryum, nemi sever. Bu nedenle nem gereksiniminin karşılanması için spreyle su püskürtmek gerekir. Antoryum çiçeğini iç mekanda soğuk olmayan ve rüzgar almayan bir noktaya koyabilirsiniz. Parçalı güneş alan yerler en uygun yerler antoryum çiçeği için ideal yerlerdir. Güneş ışığının süzüldüğü bir noktaya saksınızı yerleştirebilirsiniz.
+                </p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="card">
+                    <a href="/kadife-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/kadife.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Kadife Çiçeği</h2>
+                            <p><h3>Kadife çiçeğinin Özellikleri</h3>
+                                Kadife çiçeği genel olarak; kırmızı, sarı, turuncu ve kırmızı renklere sahip olduğunu ve kadifemsi bir görünümü olduğunu belirtmek önemlidir.
+                                 Kadife çiçeği; ilkbahar aylarında ekilmektedir. Güneşi bol olan bölgeleri sevdiği için başta Akdeniz Bölgesi olmak üzere sıcak iklimi olan her yerde yetiştirilebilir. 
+                                 Kadife çiçeği, pek çok üründe kullanılmaktadır. Şampuan ve sabun, bu ürünlerin başında gelir. Kadife çiçeğinden elde edilen yağın; sivilce, mantar, egzama gibi hastalıklara karşı destekleyene etkisi bulunur. 
+                                 Ağrı kesici özelliği bulunan kadife çiçeği yağı, ağrıyan yerleri rahatlatır.
+                                 Kafide çiçeğinin, insan sağlığı açısından faydaları çok fazladır. </p> <br>
+                            
+                                 <p><h3>Kadife Çiçeği Bakımı Nasıldır?</h3> <br>
+                                 
+                
+                                Kadife çiçeğinin tohum ekimi Mart ile Mayıs aylarında yapılmalıdır. Bununla beraber yaklaşık olarak 15 gün içinde çimlenmeye başlar.
+                                 Çimlenme başladığı zaman güneş ışığının fazla olması oldukça önemlidir. Çünkü bu çiçek, güneş ışığını çok seven bir çiçektir.
+                                  Her çeşit iklim ve toprağa uyum sağlasa da soğuk hava çiçeği değildir. Suyu seven bir çiçektir.
+                                   Bununla beraber yetişirken uygun saksı veya kaplarla yetiştirilmesi gerekir.
+                                 Sıcak mekanlar kadife çiçeğinin bakımı açısından oldukça önemlidir. </p> <br>
+                
+                                 <p><h3>Kadife Çiçeği Nasıl Ekilir? </h3> <br>
+                                    
+                
+                                    Kadife çiçeğinin tohumları; toprağa serpilip çimlendirilmelidir. Tohumların çimlenmesi kontrol edilerek, çimleninceye dek toprağı çok sulanmamalıdır. 
+                                    2 ile 4 aylık sürecin sonrasında çimlenme tamamlanacaktır. Tohumlar çimlenince, şaşırtma uygulanmalıdır. Fideler oluştuktan hemen sonra bitki tohumlarının 
+                                    ekilmiş olduğu yerden alınıp, başka yerde yetiştirilebilir. Çimlenme sonrasında kadife çiçeği fideleri şaşırtıldıktan sonra yeni saksılara alınabilir. 
+                                    Bitki, kendi toprağında kalacaksa aralarında yaklaşık olarak 25- 30 santimetre kadar boşluk kalması oldukça önemlidir. </p>
+                    </div>
+                    </a>
+                </div>
+                   
+                
+                
+                    <div class="card">
+                        <a href="/kupeli-cicegi">
+                            <img src="{{ url_for('static', filename='resimler/kupeli.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Küpeli Çiçeği</h2>
+                            <p><h3>Küpeli Çiçeğinin Özellikleri</h3>
+                                Bilimsel adı fuchsia olan küpe çiçeği, tropik Orta ve Güney Amerika ikliminde doğal olarak yetişir. 
+                                Bazı kaynaklara göre Meksika menşeli bir çiçektir. Fakat Orta ve Güney Amerika’da dağlık yerlerde sıklıkla rastlanabilir. 
+                                Farklı iklimlere kolay adapte olan bir çiçek olduğu gibi, ev koşullarında yetiştirilmesi kolaydır. <br>
+                                Uzun yıllar boyunca yetiştirilebilir ve süs bitkisi olarak iç mekanlarda kullanılabilir. <br><br>
+                                Küpe çiçeğinin narin dalları vardır ve çiçekleri bu dallardan aşağı doğru sarkan bir yapıdadır. Bakımı zor olmasa da özen gerektirir ve her yıl çiçek verebilmesi düzenli bakıma bağlıdır. 
+                                Doğru sulama güneşlenme, gübreleme ve ilaçlama ile yıllar boyunca çiçek verebilir.</p> <br>
+                            <p><h3>Küpeli Çiçeğinin Bakımı Nasıl Yapılır ? </h3> <br>
+                                Küpe çiçeği nispeten soğuk havalarda büyüyen bir bitkidir. Bu yüzden bakımını kış aylarında yapmanız faydalı olacaktır. Bu sayede ilkbahar ve yaz aylarında çiçeklenebilir fakat hiçbir koşulda 5 derecenin altında bırakılmaması gerekir. <br>
+                
+                
+                Yarı gölge yerler küpe çiçeği için idealdir. Direkt güneş ışığına maruz kaldıklarında çiçekleri dökülebilir. Bulundukları ortamlar doğal ışık almalı fakat konumu doğrudan güneş ışığına maruz kalan bir yerde olmamalıdır. <br>
+                
+                
+                Yılda bir kere saksı değişimi şarttır. Yaz henüz başlamadan, ilkbahar döneminde saksısı değiştirilebilir.</p>     
+                        </div>                      
+                    </div>
+                </a>
+                
+            </section>
+
+
+            <section id="section-7">
+                
+                <div class="card">
+                    <a href="/petunya">
+                        <img src="{{ url_for('static', filename='resimler/petunya.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Petunya Çiçeği</h2>
+                            <p><h3>Petunya Özellikleri</h3>
+                                Solanaceae ailesinin bir üyesi olan petunya çiçeği, doğru şekilde bakımı yapılır ve uygun ortam sağlanırsa oldukça uzun ömürlü bir bitkidir.
+                                Çok yıllık bir bitkidir.
+                                Bütün yaz boyunca çiçek açar. Yaz ve sonbahar ayları boyunca çiçeklidir. <br> <br>
+                                Petunya çeşitleri 4 tanedir. Bunlar; büyük çiçekli, küçük çiçekli, çok çiçekli ve zemin kaplayıcıdır. <br><br>
+                                
+                                Saksıda, zeminde, askıda ve bahçelerde yetiştirilebilen petunya, büyüleyici çiçekleriyle etkileyici bir görüntü sunar. 
+                                Tüm yaz ve sonbahar aylarını çiçekli olarak geçirir. Bu bitki uygun ortam ve bakım sağlandığı müddetçe uzun ömürlüdür. 
+                                Petunya çiçeğinin anlamı umuttur. Rengarenk insanın içini ferahlatan bu çiçek aynı zamanda umudun simgesidir.</p> <br>
+                            <p><h3>Petunya Tohumu Nasıl Ekilir?</h3> <br>
+                                Petunya yetiştirmede tohumdan ziyade filizin tercih edildiğini belirtmeliyiz.
+                                Bunun nedeni tohumların çok ufak olması nedeniyle idare edilmesinin zor olmasıdır.
+                                Ayrıca tohumların filizlenmesi yaklaşık 10 hafta sürer. Oysa tohumdan değil filizden yetiştirmeye başlarsanız
+                                10 haftalık süreyi beklemenize gerek kalmaz.
+                                Şubat ve mart aylarında kasalara ekilen tohumlar mayıs ayından itibaren bahçelere dikilir.</p> <br>
+                
+                                <p><h3>Petunya Çiçeği Bakımı Nasıl Yapılır?</h3><br>
+                                    Petunya çiçeği için toprak, yuvarlak ve geniş ağızlı saksılar idealdir.
+                                    Genellikle saksının dibine biraz pomza, perlit veya çakıl yerleştirilir ve ardından üzerine toprak konur.
+                                    Topraktan sonra tohumlar yerleştirilir. Tohumları toprağın içine gömmek zorunda değilsiniz, yüzeyde bırakabilirsiniz.
+                                    Ekim işleminden yaklaşık 3 hafta sonra tohumlar çimlenir ve fideler ortaya çıkmaya başlar.
+                                    Güneş gören petunyaların saksısının yılda bir kez değiştirilmesi gerekir.
+                                    Daha az güneş gören petunyaların saksıları ise 2 yılda bir değiştirilmelidir. <br><br>
+                                    Konumlandırma: <br>
+                
+                                    Çok narin bir çiçek olan şakayık, sert hava koşullarına dayanamaz.
+                                    Rüzgarı doğrudan almamalıdır. Hava akışı sağlanan, aydınlık ve ferah köşelerde şakayık büyüyebilir. <br> <br>
+                                    Ekim: <br>
+                
+                                    Soğanlı bir bitki olan şakayık, sık ekilmelidir.
+                                    Her bir soğan arasında 5 cm aralık olmalıdır. Geniş bir saksı, şakayık için ideal olacaktır.</p>
+                        </div>
+                    </a>
+                </div>
+                    
+            
+                <div class="card">
+                    <a href="/sakayik">
+                        <img src="{{ url_for('static', filename='resimler/sakayik.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Şakayık</h2>
+                            <p><h3>Şakayık Özellikleri</h3> 
+                                Şakayık çiçeği, her sene bahar aylarında saksı ve bahçelerde göz kamaştıran bir tür çiçektir.
+                                Kendine has hoş bir kokusu olan bu çiçeğin görünümü, ilk evrede içe kapanmış gülü andırır.
+                                Bir süre sonra dışa doğru açılan renkli yapraklar, yanından geçenlere hoş koku yayar. <br><br>
+                                Her bahçeye uyum sağlayan şakayık çiçeğinin evde bakımı da çok kolaydır.
+                                İdeal sıcaklık ve sulama karşılandığında, evlere renk katar.
+                                Pek çok renkte büyüyen şakayık çiçeğinin en yaygın hali pembe renkli olanıdır.
+                                Bu çiçeği yetiştirmek isteyenlerin bir süre sabretmesi gerekir. Çünkü şakayık, ilk defa dikildiği bahçede ya da saksıda çok verim vermez.
+                                Bir sonraki seneye kadar bulunduğu yere alışan şakayık çiçeği, bir sene sonra geniş bir yer kaplayacak kadar çiçek verir. <br> <br>
+                                Genellikle nisan ayı geldiği andan itibaren çiçeklerini gösteren şakayık çiçeği, bahar günlerinin rengarenk olmasını sağlıyor.
+                                Haziran sonuna kadar verimli halde durabilen bu çiçek, çok yoğun sıcaklara dayanamıyor.
+                                Sağlık için de önemli bir bitki olan şakayık çiçeği faydaları sayesinde solunumu rahatlatıyor.
+                                Soğanlı bir çiçek olan şakayık, kendi soğanından büyümeye başlar.
+                                Pembe, sarı ve beyaz gibi renklere sahip olan çiçekleri kat kat dallardan yükselir.</p> <br>
+                            <p><h3>Şakayık Çiçeği Anlamı ve Hikayesi</h2> <b3>
+                                Kaynaklarda yer alan bilgilere göre şakayık çiçeğinin hikayesi Yunan Mitolojisi ile ilgilidir. <br><br>
+                
+                                Şakayık çiçeği şefkat duygusunu temsil eder. <br> <br>
+                                Paeon, ilaç tanrısının öğrencilerinden biridir.
+                                Paeon bir gün, öğretmeni tarafından ormana ilaç bulması amacıyla gönderilir.
+                                Paeon’un amacı ise; hamile kadınlara çare olmak ve çektiği ağrıları dindirmek için etkili olan bitkiyi bulmaktır.
+                                Ancak yolunda gitmeyen şeyler vardır. Paeon’un ilaç tanrısı oldukça kıskançtır.
+                                Zeus ise bu kıskançlığın farkındadır. Paeon’un zarar görmemesi için Paeon’u şakayık çiçeğine dönüştürmüştür.
+                                Zeus, Paeon’u koruyarak onun canından olmasına engel olmuştur.
+                                Şakayık çiçeği olarak hayatına devam eden Paeon, artık tüm hamile kadınların şifasıdır.
+                                Böylece ilaç tanrısı Paeon’u öldürememiştir ve Paeon da hayatına şifa veren şefkatli bir çiçek olarak devam etmiştir.</p> <br>
+                
+                                <p><h3>Şakayık Çiçeği Bakımı ve Yetiştiriciliği</h3> <br>
+                                    -Şakayık çiçeği, keskin hava şartlarını sevmez. <br> <br>
+                
+                                    Sulama: <br>
+                                    
+                                    Şakayık çiçeği nemi çok sever. Fazla sulamaya gelmeyen çiçeklerdendir.
+                                    Eğer çok sulama yaparsanız; saksının alt tabağını alıp fazla suyun kusmasını sağlayabilirsiniz. Bu çiçeği sularken toprağı kontrol edip sulama yapmalısınız. <br> <br>
+                                    Toprak Seçimi:
+                                    <br>
+                                    Humuslu toprak seven şakayık çiçeği, tarla ya da bahçe toprağını kabul etmez.
+                                    Mineral açısından zengin, organik gübreleri toprakları saksıya ekleyebilirsiniz.
+                                    Geniş arazide yetiştirme yapacaksanız; böceklerde arınmış toprak seçmelisiniz.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="card">
+                    <a href="/yildiz-cicegi">
+                        <img src="{{ url_for('static', filename='resimler/yildiz.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Yıldız Çiçeği</h2>
+                            <p><h3>Yıldız Çiçeği Özellikleri</h3> 
+                                Yıldız çiçeği, dalya ve dehlia isimleriyle de bilinir. Renkli çiçekleri sayesinde eve ayrı bir hava katan bu çiçek, hoş görüntüsü ile genellikle süs bitkisi olarak değerlendirilir. Beyaz yıldız çiçeği, sarı yıldız çiçeği, kırmızı yıldız çiçeği, mavi yıldız çiçeği… Adeta gökkuşağının her rengini yıldız çiçeği çeşitleri içerisinde görmek mümkündür. <br><br>
+                
+                                Yıldız çiçeğini ekmek ve yetiştirmek tahmin edilenden çok daha kolay ve zahmetsizdir. Bu şahane bitki hemen her toprakta kolaylıkla yetişebilir. Ayrıca sık sık sulanmasına gerek yoktur. Bu çiçek için en ideal yerler bol güneş alan bahçelerdir. Çünkü suyu sevmeyen bu bitki güneşe adeta aşıktır. Yıldız çiçeği doğru uygulamalarla iyi bakıldığında yaz sonu ve sonbahar döneminde çiçek açar.</p> <br>
+                            <p><h3>Yıldız Çiçeği Bakımı Nasıl Yapılır?</h3> <br>
+                                Toprak Seçimi <br>
+                Yıldız çiçeği hemen her toprak türünde kolaylıkla yetiştirilebilir. Ancak daha sağlıklı bir gelişim için pH değeri yüksek, alkali, verimli, humuslu ve kolay drenaj sağlanan toprakları tercih etmelisiniz.
+                <br><br>
+                Sulama <br>
+                Yıldız çiçeği bakımı nasıl yapılır sorusu için en önemli kısım tabii ki her bitkide olduğu gibi sulamadır. Yıldız çiçeği susuzluğa dayanıklı bir bitkidir. Çok fazla suya ihtiyaç duymaz. Yıldız çiçeği yetiştirilirken sulama çok fazla yapılmaz; ama suyun kaliteli olması mühimdir. Çiçeğe ne zaman su vereceğinize karar vermek için toprağını kontrol etmeniz yeterlidir. Eğer toprak kuru ise sulama zamanı gelmiş demektir.
+                <br><br>
+                Konumlandırma <br>
+                Yıldız çiçeği, güneşi seven çiçeklerdendir. Hatta öyle ki; bu bitki ne kadar çok güneş görürse o kadar çok çiçek açar. İlkbahar aylarının başından yaz mevsiminin sonuna kadar günde minimum 6 saat güneş ışığına ihtiyaç duyar. Dolayısıyla bu çiçeği evinizin en fazla güneş alan noktasına, balkona ya da terasa konumlandırmanızı öneririz.
+                
+                Çok rüzgarlı bir balkonunuz yoksa yıldız çiçeğini dış ortamda da yetiştirebilirsiniz.
+                
+                Yıldız çiçeğini konumlandırırken dikkat etmeniz gereken bir diğer nokta ise çiçeği koyduğunuz yerin havadar olmasıdır. Çünkü bu bitki özellikle çiçek açma döneminde temiz havaya ihtiyaç duyar. Yıldız çiçeği açmıyor acaba neden diye düşünüyorsanız bu sorunun cevabı genellikle çiçeğin yerini sevmemesiyle ilgili olabilmektedir.
+                <br><br>
+                Isı – Sıcaklık <br>
+                Yıldız çiçeği oda sıcaklığında sağlıklı bir gelişim gösterir. Ancak çimlenme döneminde oda sıcaklığının normalden birkaç derece fazla olmalıdır. Çimlenme gerçekleştikten sonra ise oda sıcaklığını normal seviyesine alabilirsiniz.</p> <br><br><br>
+                    </div>
+                    </a>
+                </div>
+                   
+                
+                
+                    <div class="card">
+                        <a href="/papatya">
+                            <img src="{{ url_for('static', filename='resimler/daisy.jpg') }}" alt="">
+                        <div class="container">
+                            <h2>Papatya</h2>
+                            <p><h3>Papatya Çiçeğinin Özellikleri</h3>
+                                Papatya çiçeği ülkemize has olan bir çiçektir. Bu nedenle ana vatanı Türkiye’dir.
+                                Papatya ilkbahardan Haziran ayının sonuna kadar çiçek açar. Papatya çiçeğinin boyu yaklaşık olarak 25 cm kadardır ve sapları bulunmaz.
+                                Beyaz renkli yaprakları vardır ve bu yaprakları ince, parçalıdır. Çiçeğin orta kısmında ise sarı bir yuvarlak vardır. 
+                                Bundan dolayı bu çiçeğe halk arasında sarıpapatya diyenler de olur. 
+                                Papatya çiçeği temiz bir kalbi simgeler. İnsanlar temiz kalpliliklerini göstermek için birbirlerine papatya armağan ederler.</p>
+                                <p><h3>Papatya Çiçeğinin Anlamı</h3>
+                                    Tüm çiçeklerin bir anlamı olduğu gibi papatya çiçeğinin de anlamı vardır.
+                                     Anlamı masumiyet ve saflıktır. Papatya çiçeği temiz bir kalbin simgesidir.
+                                     Genellikle insanlar birbirlerinden özür dilemek istediklerinde papatya çiçeği hediye ederler. Sade ve kişiye huzur veriyor.
+                                     Baharın geldiğini müjdeleyen papatya çiçeği hem insan ruhuna hem de vücuda iyi gelir.</p>
+                                <p><h3>Papatya Çiçeğinin Hikâyesi</h3>
+                                    Papatya çiçeğinin hüzünlü bir hikâyesi vardır. Bir zamanlar bir yerde küçük bir tırtıl oluşmuş. İçgüdüleri yardımıyla beslenmesini sağlamış. Biraz büyüdüğünde kendine güvenli bir yer bularak orada koza örmeye başlamış. 
+                                    Belli zaman sonra bu kozadan renkli kanatlı bir kelebek olarak çıkmış. Bu kelebek uçmuş ve uzaklardaki bir vadiye ulaşmış. Etrafına bakınırken vadinin diğer ucundaki papatyayı görmüş.
+                                     Onun ne kadar güzel bir çiçek olduğunu düşünmüş ve yanına giderek merhabalaşmışlar. 
+                                    Sonra birbirlerini tanıyıp konuşmuşlar. Kelebek ile papatya birbirlerini çok sevmişler, birlikte bolca zaman geçirmişler. Birbirlerini hep korumuşlar.<br>
+        
+                                    Kelebek papatyayı çok sevmiş ama ona kendisini sevip sevmediğini bir türlü soramamış. Papatya da kelebeği çok sevmiş ama birbirlerine söyleyememişler.
+                                     Bir gün kelebek artık fazla zamanının kalmadığını anlamış ve papatyaya onun yanından ayrılması gerektiğini söylemiş. ,
+                                     Papatya nedenini merak edince kelebek onun yanında çok mutlu olduğunu ama kelebeklerin yalnızca 3 gün yaşadığını ve ömrünü tamamlamak üzere olduğunu söylemiş.<br>
+                                    
+                                    Papatya elbette ki bu duruma çok üzülmüş ama yapabileceği hiçbir şey yokmuş. Kelebeğin artık gücü çok azalmış ve son bir çabayla “seni seviyorum” diyebilmiş. 
+                                    Papatya da “Ben de” demiş. Papatya kelebek gidince çok üzülmüş, onu sevdiğini daha önce söylemesi gerektiği için pişman olmuş. Papatya bu acıya çok dayanamamış. 
+                                    Önce yaprakları solmuş, sonra da birer birer dökülmeye başlamış. Her düşen yaprakta papatya içinde “seviyormuş” diye geçirmiş.
+                                     Bu olaydan sonra aşıklar karşılarındakine soramadıkları şeyi papatyalara “seviyor mu sevmiyor mu” diye sormaya başlamış ve bu durum böylece yayılmış.</p>     
+                        </div>                      
+                    </div>
+                </a>
+                
+            </section>
+
+        </div>
+
+        
+    </main>
+
+</body>
+</html>
+

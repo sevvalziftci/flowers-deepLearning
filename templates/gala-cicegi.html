@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gala Çiçeği</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+    
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/gala.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Gala Çiçeği</h1> <br>
+            <p><h2>Gala Çiçeğinin Özellikleri Neler?</h2> <br>
+               - Gala çiçeği narin ve kırılgan bir yapıya sahiptir.<br>
+               - Gala çiçeği gününde ve aynı ölçüde dakik olarak sulanırsa daha verimli bir şekilde büyür.<br>
+               - Bakım işlemleri düzenli ve eşit miktarda olmadığı zaman gala çiçeği küsebilir. <br>
+               - Gala çiçeği genelde direk güneş görmeyen ve rüzgar almayan alanları sever. <br>
+               - Işığı seven gala çiçeği pencere önü gibi alanlar için ideal bir türdür. <br>
+               - Gala çiçeği saksı değişimi konusunda nisan ve mayıs ayları takip edilebilir.<br> 
+               - Kökten çoğalan bir tür olduğu için kökleri ayırarak gala çiçeğinizi artırabilirsiniz.<br> 
+               - Gala çiçeği anlam olarak saflığı ve temizliği simgelemesi ile bilinir. </p>
+               <p> <br>
+                <h2>Gala Çiçeği Nasıl Sulanır?</h2> <br>
+                Gala çiçeğinin sulama işlemi tüm çiçeklerde olduğu gibi klasik bir yöntemden ibaret değil.
+                Yani gala çiçeğinin her aklınıza geldiğinde sulamanız yeterli ve dengeli bir seçenek olmayabilir. 
+                Gala çiçeğine en iyi şekilde bakmak için haftanın belli günlerinde ve aynı ölçüde su ile sulamaya dikkat etmeniz gerekir. 
+                Ölçü ve zamanlama konusunda gala çiçeği oldukça hassas bir türdür.
+                Gala çiçeğini yaz aylarında haftada 2 kez ve düzenli şekilde sulamanız gerekir.
+                Kış dönemi geldiğinde ise sadece haftada bir kez sulamak yeterli.
+                Belli bir ölçü kabı ayarlayarak daima aynı miktarda su verdiğinizi kolayca kontrol edebilirsiniz.
+                Gününde ve doğru ölçüde sulamadığınız zaman gala çiçeği küserek ilk belirtilerini gösterir.
+                Narin ve kırılgan bir tür olan bu çiçeğe evde bakmanız hiçbir ayrıntıyı atlamamanız açısından oldukça önemli.</p>
+        </div>
+    </div>
+
+        
+
+
+</body>
+</html>

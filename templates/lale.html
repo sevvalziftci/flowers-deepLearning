@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lale</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/tulips.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Lale</h1> <br>
+            <p><h2>Lale Çiçeğinin Özellikleri Nelerdir?</h2> <br>
+                - Gökkuşağında bulunan tüm renkler, lale çiçeklerinde görülür. Oldukça renkli bir bitkidir.<br>
+                - Lale çiçeği bir semboldür. Türkler için derin anlam taşır. Çünkü Osmanlı Devleti’nin sen çok ekilen ve adı duyulan çiçeğidir.<br>
+                - Dünya genelini düşündüğünüzde neredeyse 5 bin adet lale türü yetişmektedir.<br>
+                - Lale çiçeği fidesi bir soğandan oluşur. Ekilen lale soğanı sonraki sene için içinde tohum saklar.<br>
+                - Her çiçeğin bir anlamı olduğu için lale renkleri de birer duyguyu temsil eder.<br>
+                - Zambakgillerden bir tür olan lale hem saksıda hem de bahçe toprağında büyümeye uygun bir çiçektir.<br>
+                - Çiçekleri adeta birer çanı andırmaktadır.<br>
+                - Asya’nın Batı kesimlerinden doğan lale çiçeği, Türkiye topraklarına 12. yy itibariyle gelmiştir.<br>
+                - Genellikle süsleme ve peyzaj alanında kullanılmaktadır. Ülkemizde ise bu çiçeğin şekli, pek çok sanat eserine ilham kaynağı olmuştur. Çini, ebru ve halı dokuma alanlarında lale motifi çok sık kullanılır.<br>
+                - Baharın gelişiyle çiçeklerini gösteren lale, yaz aylarının son demlerine kadar canlı kalır. Ticari amaçla yetişen laleler, çiçeklerini tam olarak açmadan kesilir ve vazoda su içinde bakılır. Bu tip lalelerin ömrü çok kısadır.<br>
+                - Toprakta ve açık ortamda büyüyen laleler neredeyse tüm yaz boyunca canlı kalabilir.</p> <br>
+
+                <p><h2>Evde Lale Çiçeği Nasıl Yetiştirilir?</h2> <br>
+                <h3>Ev ortamında lale çiçeği yetiştirmek için bilmeniz gereken bazı püf noktalar vardır:</h3> <br> 
+                - Lale soğanlı bir bitki olduğundan dolayı, soğanların donmadan toprağa dikilmesi gerekir. Bu dönem ise kış öncesidir. Kış soğuklarına kalırsanız; soğanlar toprakta donarak yapısını bozar.<br>
+                - Daha öncesinde büyüyen ve bir süre sonra solan lale çiçeklerini soğandan ayırmanız gerekir.<br>
+                - Solmuş çiçekler soğanı da çürütebilir. Bu nedenle soğanlar saksıdan alınmalı ve serin bir yerde havalandırılmalıdır.<br>
+                - Serin bir günde yeniden toprağa bu soğanları ekebilirsiniz.<br>
+                - Düz ya da ters lale çiçeği yetiştiriyorsanız; soğanlara uygun bir ortam seçmelisiniz. Bu tür çiçekler kapalı ortamda ve oksijenin az olduğu bölgelerde büyümez.<br>
+                - Lale çiçeği bakımı sizi çok yormaz ve zahmet istemez. Kontrollü şekilde bakımını yaptığınızda balkonda ve bahçede renk renk lale görebilirsiniz.</p>               
+        </div>
+    </div>
+</body>
+</html>

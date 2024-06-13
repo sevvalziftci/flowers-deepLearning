@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papatya</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/daisy.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Papatya</h1> <br>
+            <p><h2>Papatya Çiçeğinin Özellikleri</h2><br>
+                Papatya çiçeği ülkemize has olan bir çiçektir. Bu nedenle ana vatanı Türkiye’dir.
+                Papatya ilkbahardan Haziran ayının sonuna kadar çiçek açar. Papatya çiçeğinin boyu yaklaşık olarak 25 cm kadardır ve sapları bulunmaz.
+                Beyaz renkli yaprakları vardır ve bu yaprakları ince, parçalıdır. Çiçeğin orta kısmında ise sarı bir yuvarlak vardır. 
+                Bundan dolayı bu çiçeğe halk arasında sarıpapatya diyenler de olur. 
+                Papatya çiçeği temiz bir kalbi simgeler. İnsanlar temiz kalpliliklerini göstermek için birbirlerine papatya armağan ederler.</p> <br>
+                <p><h2>Papatya Çiçeğinin Anlamı</h2> <br>
+                    Tüm çiçeklerin bir anlamı olduğu gibi papatya çiçeğinin de anlamı vardır.
+                     Anlamı masumiyet ve saflıktır. Papatya çiçeği temiz bir kalbin simgesidir.
+                     Genellikle insanlar birbirlerinden özür dilemek istediklerinde papatya çiçeği hediye ederler. Sade ve kişiye huzur veriyor.
+                     Baharın geldiğini müjdeleyen papatya çiçeği hem insan ruhuna hem de vücuda iyi gelir.</p> <br>
+                <p><h2>Papatya Çiçeğinin Hikâyesi</h2> <br>
+                    Papatya çiçeğinin hüzünlü bir hikâyesi vardır. Bir zamanlar bir yerde küçük bir tırtıl oluşmuş. İçgüdüleri yardımıyla beslenmesini sağlamış. Biraz büyüdüğünde kendine güvenli bir yer bularak orada koza örmeye başlamış. 
+                    Belli zaman sonra bu kozadan renkli kanatlı bir kelebek olarak çıkmış. Bu kelebek uçmuş ve uzaklardaki bir vadiye ulaşmış. Etrafına bakınırken vadinin diğer ucundaki papatyayı görmüş.
+                     Onun ne kadar güzel bir çiçek olduğunu düşünmüş ve yanına giderek merhabalaşmışlar. 
+                    Sonra birbirlerini tanıyıp konuşmuşlar. Kelebek ile papatya birbirlerini çok sevmişler, birlikte bolca zaman geçirmişler. Birbirlerini hep korumuşlar.<br>
+
+                    Kelebek papatyayı çok sevmiş ama ona kendisini sevip sevmediğini bir türlü soramamış. Papatya da kelebeği çok sevmiş ama birbirlerine söyleyememişler.
+                     Bir gün kelebek artık fazla zamanının kalmadığını anlamış ve papatyaya onun yanından ayrılması gerektiğini söylemiş. ,
+                     Papatya nedenini merak edince kelebek onun yanında çok mutlu olduğunu ama kelebeklerin yalnızca 3 gün yaşadığını ve ömrünü tamamlamak üzere olduğunu söylemiş.<br>
+                    
+                    Papatya elbette ki bu duruma çok üzülmüş ama yapabileceği hiçbir şey yokmuş. Kelebeğin artık gücü çok azalmış ve son bir çabayla “seni seviyorum” diyebilmiş. 
+                    Papatya da “Ben de” demiş. Papatya kelebek gidince çok üzülmüş, onu sevdiğini daha önce söylemesi gerektiği için pişman olmuş. Papatya bu acıya çok dayanamamış. 
+                    Önce yaprakları solmuş, sonra da birer birer dökülmeye başlamış. Her düşen yaprakta papatya içinde “seviyormuş” diye geçirmiş.
+                     Bu olaydan sonra aşıklar karşılarındakine soramadıkları şeyi papatyalara “seviyor mu sevmiyor mu” diye sormaya başlamış ve bu durum böylece yayılmış.</p>                     
+        </div>
+    </div>
+
+</body>
+</html>

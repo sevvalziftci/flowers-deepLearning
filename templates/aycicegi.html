@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayçiçeği</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+
+        div.sol{
+            width: 40%;
+            float: left;
+
+        }
+        div.sag{
+            width: 60%;
+            float:right;
+            padding-top: 50px;
+            font-size: 18px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+
+    <div class="container" >
+
+        <div class="sol">
+            <img src="{{ url_for('static', filename='resimler/aycicegi.jpg') }}" alt="">
+        </div>
+        
+        <div class="sag">
+            <h1>Ayçiçeği</h1> <br>
+            <p><h2>Ayçiçeği Nedir?</h2> <br>
+                Ayçiçeğinin Latince adı “Helianthus Annuus” tur. 1-2 metre boyunda, yaz aylarında sarı renkli, yassı, koni şeklinde çiçekler açan sert ve dik gövdeli bir bitkidir.<br><br>
+
+                Genel olarak ılık iklimleri sever, soğuk iklimlerde gelişmesi yavaşlar. Soğuk, yüksek yerler hariç ülkemizin bütün bölgelerinde yetiştirilmektedir.
+                 Özellikle Ege, Trakya, Marmara bölgelerinde çok fazla yetiştirilir. Ayçiçeği bitkisi tohumuyla yani kavrulmamış çekirdekleriyle çoğaltılır. 
+                 Ekim zamanında toprak sıcaklığının 10-12 derece olması istenir. 
+                Bol ışık ve yüksek sıcaklık koşullarında ayçiçeği yağ verimi daha yüksek olur.
+               Tablalarındaki çiçeklerin, tohum bağlayabilmesi için toprak nemli olmalıdır.<br><br>
+               B1 vitamini, B3 vitamini, B6 vitamini ve E vitamininden zengindir.<br>
+                Ayçiçeğinin halk arasında yaygın kullanılan adları: Gündöndü, günçiçeği, günebakandır. Çok nadir şemşamer denilen yöreler de bulunmaktadır.</p> <br>
+
+            <p><h2>Ayçiçeği Özellikleri</h2> <br>
+               - Ayçiçeğinin kökleri saçak şeklindedir ancak kök sistemi pek güçlü değildir. Bitkinin büyük olmasına karşın ufak ve kesik kökü bulunmaktadır.<br>
+               - Ayçiçeğinin sapları çok güçlüdür.<br>
+               - Dik şekilde yetişir. 1 ile 5 metre arasında boyu uzar. 2 metreye kadar boyunun normal olduğunu söylemek kesin olacaktır.<br>
+               - Odunsu bir yapısı bulunmaktadır.<br>
+               - Temel sapın üstünde yaprak koltuğundan dal çıkarmaktadır. Dal sayısının yetişme koşullarına ve türüne göre değiştiğini söylemek önemlidir.<br>
+               - Her dalın ucunda çiçek tablası bulunur. Ancak temel sapın ucundaki tablanın çiçekleri daha önce açılır, tohumları ise daha sonra olgun hale gelir.<br>
+               - Ayçiçeğinin yaprakları kalp biçimindedir.<br>
+               - Yaprak sapları genellikle 20 ile 30 santimetre arasında farklılık gösterir.<br>
+               - Yaprakların kenarları hafif dişlere sahiptir.<br>
+               - Yapraklar ince tüyler ile kaplıdır.  <br>
+            </p> <br>
+            <p><h2>Ayçiçeği Çeşitleri</h2> <br>
+                Ayçiçeği ülkemizde ve dünyada yağlık ve çerezlik olarak iki tip olarak yetiştirilir.
+                 Ancak bahçelerde süs bitkisi ve kesme çiçek olarak değerlendirilen tipleri de mevcuttur. </p> <br>
+            <p><h2>Ayçiçeği Faydaları</h2> <br>
+                Ayçiçeği, insan sağlığına fayda sağlayan birçok madde içerir. Ay çekirdeği; %90 doymamış yağ oluşturduğu bilinmektedir. 
+                Ayçiçeği tohum ağırlığının 51.46%, tokoferol antioksidan bileşikler içerdiği, kardiyovasküler hastalık riskini ve bazı kanser türleri arasında, bilhassa etkilidir. 
+                1 avuç ay çekirdeği 146 kaloridir.<br><br>
+              - Bol oranda magnezyum içerir.<br>
+              - Kalp damar sağlığınızı geliştirmeye yardımcıdır.<br>
+              - Sağlıklı kolesterol düzeyini destekler.<br>
+              - Depresyona iyi gelir.<br>
+              - Selenyum içerir.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonuc</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: rgb(11, 121, 11);
+            padding: 20px 50px;
+        }
+        
+        #social{
+            color: white;
+            height: 55px;
+            width:100%;
+            text-align:left;
+            padding: 15px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        img{
+            width: 500px;
+            height: 600px;
+            object-fit: fill;
+            padding-left: 70px;
+            padding-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div id="social">
+            <font size="5">ÇİÇEKLER DÜNYASI</font>
+        </div>        
+    </header> 
+    <!-- The image will be displayed here -->
+    <img src="{{ url_for('show_result') }}" alt="Prediction Result">  
+    
+    <!-- bilgiyi buraya yazmak gerek -->
+    
+    <script>
+        if (show_result=="gala cicegi"){
+            alert("Gala Çiçeği")
+            alert("- Gala çiçeği narin ve kırılgan bir yapıya sahiptir.")
+            alert("- Gala çiçeği gününde ve aynı ölçüde dakik olarak sulanırsa daha verimli bir şekilde büyür.")
+            alert("- Bakım işlemleri düzenli ve eşit miktarda olmadığı zaman gala çiçeği küsebilir.")
+            alert("- Gala çiçeği genelde direk güneş görmeyen ve rüzgar almayan alanları sever.")  
+            alert("- Işığı seven gala çiçeği pencere önü gibi alanlar için ideal bir türdür.")
+            alert("- Gala çiçeği saksı değişimi konusunda nisan ve mayıs ayları takip edilebilir.")
+            alert("- Kökten çoğalan bir tür olduğu için kökleri ayırarak gala çiçeğinizi artırabilirsiniz.")
+            alert("- Gala çiçeği anlam olarak saflığı ve temizliği simgelemesi ile bilinir.")
+            alert("- Bakım işlemleri düzenli ve eşit miktarda olmadığı zaman gala çiçeği küsebilir.")
+            alert("- Gala çiçeği genelde direk güneş görmeyen ve rüzgar almayan alanları sever.")  
+            alert("- Işığı seven gala çiçeği pencere önü gibi alanlar için ideal bir türdür.")
+        }
+        else if(show_result==lale){
+            alert("Lale Çiçeği")
+            alert("- Gala çiçeği narin ve kırılgan bir yapıya sahiptir.")
+            alert("- Gala çiçeği gününde ve aynı ölçüde dakik olarak sulanırsa daha verimli bir şekilde büyür.")
+            alert("- Bakım işlemleri düzenli ve eşit miktarda olmadığı zaman gala çiçeği küsebilir.")
+            alert("- Gala çiçeği genelde direk güneş görmeyen ve rüzgar almayan alanları sever.")  
+            alert("- Işığı seven gala çiçeği pencere önü gibi alanlar için ideal bir türdür.")
+        }
+
+    </script>
+</body>
+</html>
